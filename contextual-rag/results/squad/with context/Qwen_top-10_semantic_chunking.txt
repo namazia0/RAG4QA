@@ -1,0 +1,1930 @@
+Preparing database...
+Number of total splits in document (Super_Bowl_50) 1: 64
+Number of total splits in document (Warsaw) 2: 85
+Number of total splits in document (Normans) 3: 58
+Number of total splits in document (Nikola_Tesla) 4: 85
+Number of total splits in document (Computational_complexity_theory) 5: 60
+Number of total splits in document (Teacher) 6: 64
+Number of total splits in document (Martin_Luther) 7: 120
+Number of total splits in document (Southern_California) 8: 35
+Number of total splits in document (Sky_(United_Kingdom)) 9: 31
+Number of total splits in document (Victoria_(Australia)) 10: 37
+Number of total splits in document (Huguenot) 11: 71
+Number of total splits in document (Steam_engine) 12: 65
+Number of total splits in document (Oxygen) 13: 57
+Number of total splits in document (1973_oil_crisis) 14: 38
+Number of total splits in document (Apollo_program) 15: 79
+Number of total splits in document (European_Union_law) 16: 114
+Number of total splits in document (Amazon_rainforest) 17: 29
+Number of total splits in document (Ctenophora) 18: 51
+Number of total splits in document (Fresno,_California) 19: 45
+Number of total splits in document (Packet_switching) 20: 40
+Number of total splits in document (Black_Death) 21: 38
+Number of total splits in document (Geology) 22: 37
+Number of total splits in document (Newcastle_upon_Tyne) 23: 82
+Number of total splits in document (Victoria_and_Albert_Museum) 24: 99
+Number of total splits in document (American_Broadcasting_Company) 25: 127
+Number of total splits in document (Genghis_Khan) 26: 84
+Number of total splits in document (Pharmacy) 27: 36
+Number of total splits in document (Immune_system) 28: 84
+Number of total splits in document (Civil_disobedience) 29: 35
+Number of total splits in document (Construction) 30: 33
+Number of total splits in document (Private_school) 31: 39
+Number of total splits in document (Harvard_University) 32: 41
+Number of total splits in document (Jacksonville,_Florida) 33: 41
+Number of total splits in document (Economic_inequality) 34: 62
+Number of total splits in document (Doctor_Who) 35: 93
+Number of total splits in document (University_of_Chicago) 36: 50
+Number of total splits in document (Yuan_dynasty) 37: 97
+Number of total splits in document (Kenya) 38: 81
+Number of total splits in document (Intergovernmental_Panel_on_Climate_Change) 39: 33
+Number of total splits in document (Chloroplast) 40: 97
+Number of total splits in document (Prime_number) 41: 52
+Number of total splits in document (Rhine) 42: 63
+Number of total splits in document (Scottish_Parliament) 43: 57
+Number of total splits in document (Islamism) 44: 43
+Number of total splits in document (Imperialism) 45: 67
+Number of total splits in document (United_Methodist_Church) 46: 77
+Number of total splits in document (French_and_Indian_War) 47: 74
+Number of total splits in document (Force) 48: 68
+Total documents:  48
+Total number of chunks:  3018
+Avg number of chunks per document:  62.875
+Vector DB saved at ./data/contextualRAG_SQuAD_qwen/vector_db_squad.pkl
+Hybrid search is running.
+Created index: contextual_bm25_index
+Deleted Elasticsearch index: contextual_bm25_index
+
+Example 1:
+Question: In what year did Massachusetts first require children to be educated in schools?
+Ground Truth: 1852
+Prediction: The answer is: Massachusetts first required children to be educated in schools in 1852.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1333
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1333
+	 BLEU: 0.0363
+	 BERTScore Precision: 0.8259
+	 BERTScore Recall: 0.8587
+	 BERTScore F1: 0.8420
+	 Exact Match: 0
+	 LLM as a judge: To determine the
+Preparing database...
+VectorDB contextualRAG_SQuAD_qwen exists. Loading vector database from disk.
+Hybrid search is running.
+Created index: contextual_bm25_index
+Deleted Elasticsearch index: contextual_bm25_index
+
+Example 1:
+Question: In what year did Massachusetts first require children to be educated in schools?
+Ground Truth: 1852
+Prediction: The answer is: Massachusetts first required children to be educated in schools in 1852.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1333
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1333
+	 BLEU: 0.0363
+	 BERTScore Precision: 0.8259
+	 BERTScore Recall: 0.8587
+	 BERTScore F1: 0.8420
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 2:
+Question: When were stromules discovered?
+Ground Truth: 1962
+Prediction: The answer is: Stromuluses were discovered in 1977.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0281
+	 BERTScore Precision: 0.7947
+	 BERTScore Recall: 0.8263
+	 BERTScore F1: 0.8102
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 3:
+Question: Which artist who had a major influence on the Gothic Revival is represented in the V&A's British galleries?
+Ground Truth: Horace Walpole
+Prediction: The artist who had a major influence on the Gothic Revival is Horace Walpole. He was a major figure in the Gothic Revival movement and his influence can be seen in the V&A's British galleries.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1026
+	 ROUGE-2 F1: 0.0541
+	 ROUGE-L F1: 0.1026
+	 BLEU: 0.0691
+	 BERTScore Precision: 0.8252
+	 BERTScore Recall: 0.8895
+	 BERTScore F1: 0.8562
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 4:
+Question: In 1890, who did the university decide to team up with?
+Ground Truth: several regional colleges and universities
+Prediction: The university decided to team up with the American Baptist Education Society and a donation from oil magnate and philanthropist John D. Rockefeller.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1429
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0714
+	 BLEU: 0.1292
+	 BERTScore Precision: 0.8098
+	 BERTScore Recall: 0.8454
+	 BERTScore F1: 0.8272
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 5:
+Question: Who got a touchdown making the score 10-7?
+Ground Truth: Jonathan Stewart
+Prediction: The answer is: Malik Jackson
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0899
+	 BERTScore Precision: 0.8465
+	 BERTScore Recall: 0.8335
+	 BERTScore F1: 0.8399
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 6:
+Question: How many Examination Boards exist in India?
+Ground Truth: 30
+Prediction: The answer is 30.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.4000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.4000
+	 BLEU: 0.0871
+	 BERTScore Precision: 0.8403
+	 BERTScore Recall: 0.8476
+	 BERTScore F1: 0.8439
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 7:
+Question: Who started rumors in 2008 that ABC would sell its ten owned-and-operated stations?
+Ground Truth: Caris & Co.
+Prediction: The answer is: Leonard Goldenson, the president of UPT (which sought to diversify itself at the time), approached Noble in 1951 on a proposal for UPT to purchase ABC.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0138
+	 BERTScore Precision: 0.8198
+	 BERTScore Recall: 0.7864
+	 BERTScore F1: 0.8027
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 8:
+Question: Which network broadcasted the 50th Super Bowl game? 
+Ground Truth: CBS
+Prediction: The network that broadcasted the 50th Super Bowl game was CBS.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1667
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1667
+	 BLEU: 0.0336
+	 BERTScore Precision: 0.7952
+	 BERTScore Recall: 0.8242
+	 BERTScore F1: 0.8094
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 9:
+Question: Why was this short termed organization created?
+Ground Truth: coordinate the response to the embargo
+Prediction: The answer is: Because the European Parliament and the Council of the European Union have powers of amendment and veto during the legislative process.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1333
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1333
+	 BLEU: 0.1035
+	 BERTScore Precision: 0.8348
+	 BERTScore Recall: 0.8760
+	 BERTScore F1: 0.8549
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 10:
+Question: What does LGM stands for?
+Ground Truth: Last Glacial Maximum
+Prediction: Answer the question in minimum words possible using only the given context and no full stop at the end.
+
+Context: The LGM was a large, complex, and highly organized organization that existed during the late 19th century and early 20th century. It was a military organization that was based in the United States and was responsible for the defense of the country. The LGM was composed of several different branches, each with its own specific responsibilities. One of the main branches of the L
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0137
+	 BERTScore Precision: 0.7710
+	 BERTScore Recall: 0.7986
+	 BERTScore F1: 0.7846
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 11:
+Question: What is the paper written by Richard Karp in 1972 that ushered in a new era of understanding between intractability and NP-complete problems?
+Ground Truth: "Reducibility Among Combinatorial Problems"
+Prediction: The paper written by Richard Karp in 1972 that ushered in a new era of understanding between intractability and NP-complete problems is "A Polynomial-Time Reductions and Computationally Complete Problems" by Richard Karp.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0526
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0526
+	 BLEU: 0.1165
+	 BERTScore Precision: 0.8334
+	 BERTScore Recall: 0.8576
+	 BERTScore F1: 0.8454
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 12:
+Question: What Lake in a German island Mainau receives a fraction of the Rhine's flow?
+Ground Truth: Lake Überlingen
+Prediction: The lake in a German island Mainau that receives a fraction of the Rhine's flow is Lake Überlingen.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1905
+	 ROUGE-2 F1: 0.1053
+	 ROUGE-L F1: 0.1905
+	 BLEU: 0.1448
+	 BERTScore Precision: 0.8135
+	 BERTScore Recall: 0.8758
+	 BERTScore F1: 0.8435
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 13:
+Question: What studio does ABC own at 1500 Broadway in NYC?
+Ground Truth: Times Square Studios
+Prediction: The studio that ABC owns at 1500 Broadway in NYC is the Paramount Building at 1501 Broadway. This building was originally constructed as a 10-story building on land previously occupied by an abandoned warehouse. It was later transformed into a 15-story building, which is now known as the Paramount Building at 1500 Broadway. The building houses various studios, including the ABC Radio Network, which is the original home of the network. Additionally, the building
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0253
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0253
+	 BLEU: 0.0187
+	 BERTScore Precision: 0.7807
+	 BERTScore Recall: 0.7737
+	 BERTScore F1: 0.7772
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 14:
+Question: How many fraternities are apart of the university?
+Ground Truth: fifteen
+Prediction: The answer is 15 fraternities and seven sororities.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0410
+	 BERTScore Precision: 0.7905
+	 BERTScore Recall: 0.8287
+	 BERTScore F1: 0.8091
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 15:
+Question: At what address did Goldenson secure a new headquarters for ABC?
+Ground Truth: 1330 Avenue of the Americas in Manhattan
+Prediction: Answer: The address where Goldenson secured a new headquarters for ABC is 1501 Broadway in Manhattan.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.2609
+	 ROUGE-2 F1: 0.0952
+	 ROUGE-L F1: 0.2609
+	 BLEU: 0.1787
+	 BERTScore Precision: 0.8483
+	 BERTScore Recall: 0.8521
+	 BERTScore F1: 0.8502
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 16:
+Question: Who had established the Russian empire to its former glory prior to 1921?
+Ground Truth: Bolshevik leaders
+Prediction: The answer is: Bolshevik leaders had established the Russian empire to its former glory prior to 1921.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.2105
+	 ROUGE-2 F1: 0.1176
+	 ROUGE-L F1: 0.2105
+	 BLEU: 0.1603
+	 BERTScore Precision: 0.8149
+	 BERTScore Recall: 0.8812
+	 BERTScore F1: 0.8468
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 17:
+Question: What does the Riemann hypothesis state the source of irregularity in the distribution of points comes from?
+Ground Truth: random noise
+Prediction: The Riemann hypothesis states that except for s = −2, −4, ..., all zeroes of the ζ-function have real part equal to 1/2.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0201
+	 BERTScore Precision: 0.7568
+	 BERTScore Recall: 0.8209
+	 BERTScore F1: 0.7875
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 18:
+Question: Which work of Luther's is effective in teaching children?
+Ground Truth: Small Catechism
+Prediction: The answer is: Luther's "Instruction for the Visitors of Parish Pastors in Electoral Saxony" (1528) is an effective work in teaching children. This document emphasizes the importance of repentance in the forgiveness of sins and the role of faith in salvation. It also highlights the need for world-service and service to the neighbor in the common, daily vocations of this perishing world. These themes align with Luther's broader teachings on the Bible as the only source of divine revelation and
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0089
+	 BERTScore Precision: 0.7800
+	 BERTScore Recall: 0.8091
+	 BERTScore F1: 0.7943
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 19:
+Question: How was the civil disobedience shown in Antigone?
+Ground Truth: obey her conscience rather than human law
+Prediction: The civil disobedience shown in Antigone is that Antigone, one of the daughters of former King of Thebes, Oedipus, defies Creon, the current King of Thebes, who is trying to stop her from giving her brother Polynices a proper burial.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0426
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0426
+	 BLEU: 0.0824
+	 BERTScore Precision: 0.7823
+	 BERTScore Recall: 0.8319
+	 BERTScore F1: 0.8063
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 20:
+Question: Where do juvenile platyctenids live?
+Ground Truth: among the plankton
+Prediction:  juveniles live among the plankton and thus occupy a different ecological niche from their parents and attain the adult form by a more radical metamorphosis, after dropping to the sea-floor.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1765
+	 ROUGE-2 F1: 0.1250
+	 ROUGE-L F1: 0.1765
+	 BLEU: 0.0910
+	 BERTScore Precision: 0.8255
+	 BERTScore Recall: 0.9071
+	 BERTScore F1: 0.8644
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 21:
+Question: How often are elections held for the Victorian Parliament?
+Ground Truth: every four years
+Prediction: The answer is: Every four years.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.6667
+	 ROUGE-2 F1: 0.5714
+	 ROUGE-L F1: 0.6667
+	 BLEU: 0.4628
+	 BERTScore Precision: 0.8581
+	 BERTScore Recall: 0.9019
+	 BERTScore F1: 0.8795
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 22:
+Question: What magnetic and electric force acts on a charge?
+Ground Truth: unified electromagnetic
+Prediction: The magnetic force acts on a charge, while the electric force acts on a charge.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1752
+	 BERTScore Precision: 0.8160
+	 BERTScore Recall: 0.8560
+	 BERTScore F1: 0.8355
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 23:
+Question: What kinds of growth did Kublai encourage?
+Ground Truth: commercial, scientific, and cultural
+Prediction: Answer: Kublai Khan encouraged various forms of growth, including:
+
+1. Commercial: He supported the merchants of the Silk Road trade network by protecting the Mongol postal system, constructing infrastructure, providing loans that financed trade caravans, and encouraging the circulation of paper banknotes (鈔, Chao).
+
+2. Scientific: He promoted scientific research and advancements in technology, such as the development of paper money, which facilitated the exchange of goods and ideas across different cultures.
+
+3. Cultural
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1039
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1039
+	 BLEU: 0.0577
+	 BERTScore Precision: 0.7987
+	 BERTScore Recall: 0.8789
+	 BERTScore F1: 0.8369
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 24:
+Question: What was the name of the first episode of the new Doctor Who series?
+Ground Truth: Rose
+Prediction: The answer is: The first episode of the new Doctor Who series was "The Chase."
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0203
+	 BERTScore Precision: 0.8065
+	 BERTScore Recall: 0.8339
+	 BERTScore F1: 0.8199
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 25:
+Question: Each of the extended metropolitan areas has a population that exceeds what number?
+Ground Truth: five million
+Prediction: The population of Southern California, which is the 8- and 10-county definition, is over 22 million people.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1000
+	 BLEU: 0.0812
+	 BERTScore Precision: 0.7976
+	 BERTScore Recall: 0.8535
+	 BERTScore F1: 0.8246
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 26:
+Question: Why is giving a defiant speech sometimes more harmful for the individual?
+Ground Truth: lack of remorse
+Prediction: The answer is: Giving a defiant speech can be more harmful for the individual because it may lead to a lack of remorse, an attempt to avoid responsibility for one's actions, and even a likelihood of repeating illegal actions. This can result in the individual being seen as a weak and powerless person who is unable to take responsibility for their actions. Additionally, some forms of civil disobedience, such as illegal boycotts, refusals to pay taxes, draft dodging, distributed denial-of-service attacks,
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0690
+	 ROUGE-2 F1: 0.0471
+	 ROUGE-L F1: 0.0690
+	 BLEU: 0.0280
+	 BERTScore Precision: 0.7853
+	 BERTScore Recall: 0.8736
+	 BERTScore F1: 0.8271
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 27:
+Question: When were Joseph Schumpeter and Norman Angell at their most prolific writing period?
+Ground Truth: before World War I
+Prediction: Joseph Schumpeter and Norman Angell were at their most prolific writing period during the interwar years.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0397
+	 BERTScore Precision: 0.8068
+	 BERTScore Recall: 0.8597
+	 BERTScore F1: 0.8324
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 28:
+Question: How do competing businesses attract workers?
+Ground Truth: offering a higher wage
+Prediction: The answer is: Competing businesses attract workers by offering high-paying jobs with high levels of risk and competition among employers. They also provide opportunities for growth and development, as well as the opportunity to learn new skills and advance their careers. By providing these benefits, businesses can attract and retain skilled workers who are willing to take on challenging roles and work in high-risk environments. Additionally, by offering flexible working hours and remote work options, businesses can help employees balance work and personal life, reducing stress and improving
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0213
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0213
+	 BLEU: 0.0241
+	 BERTScore Precision: 0.7827
+	 BERTScore Recall: 0.8292
+	 BERTScore F1: 0.8053
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 29:
+Question: How many teams up to Super Bowl 50 have been to the championship game eight times?
+Ground Truth: four
+Prediction: The answer is 8.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0657
+	 BERTScore Precision: 0.8378
+	 BERTScore Recall: 0.8476
+	 BERTScore F1: 0.8427
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 30:
+Question: What plants create most electric power?
+Ground Truth: steam turbine
+Prediction: Electric power is created using steam turbine plants, so that indirectly the world's industry is still dependent on steam power.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1739
+	 ROUGE-2 F1: 0.0952
+	 ROUGE-L F1: 0.1739
+	 BLEU: 0.0960
+	 BERTScore Precision: 0.8210
+	 BERTScore Recall: 0.8857
+	 BERTScore F1: 0.8521
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 31:
+Question: The epidemic in Newcastle was the most what in any British city at the time?
+Ground Truth: devastating loss
+Prediction: The answer to the question "The epidemic in Newcastle was the most what in any British city at the time?" is "most severe".
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0332
+	 BERTScore Precision: 0.8034
+	 BERTScore Recall: 0.8217
+	 BERTScore F1: 0.8124
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 32:
+Question: What additional srevice did BSkyB offer besides Video on Demand that they claimed offered "substantially more value"?
+Ground Truth: HD channels
+Prediction: The additional service that BSkyB claimed offered "substantially more value" was HD channels and Video On Demand content.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.2000
+	 ROUGE-2 F1: 0.1111
+	 ROUGE-L F1: 0.2000
+	 BLEU: 0.0850
+	 BERTScore Precision: 0.8082
+	 BERTScore Recall: 0.8775
+	 BERTScore F1: 0.8414
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 33:
+Question: Who did Tesla think would run the world of the future?
+Ground Truth: women
+Prediction: Tesla thought that humanity's future would be run by "Queen Bees."
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0302
+	 BERTScore Precision: 0.8085
+	 BERTScore Recall: 0.8479
+	 BERTScore F1: 0.8277
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 34:
+Question: What have many HT members graduated to joining?
+Ground Truth: terrorist groups
+Prediction: The answer is: HT members have graduated to joining the United Methodist Church, which is a member of the World Methodist Council and other religious associations.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0363
+	 BERTScore Precision: 0.8051
+	 BERTScore Recall: 0.8462
+	 BERTScore F1: 0.8252
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 35:
+Question: Approximately how many items are in the costume collection of the V&A?
+Ground Truth: over 14,000
+Prediction: The answer is approximately 22,000 objects in the costume collection of the V&A.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1111
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1111
+	 BLEU: 0.0559
+	 BERTScore Precision: 0.8348
+	 BERTScore Recall: 0.8727
+	 BERTScore F1: 0.8533
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 36:
+Question: Which park is home to the Fresno Chafffee Zoo?
+Ground Truth: Roeding Park
+Prediction: The Fresno Chaffee Zoo is located in Kearney Park, which is the largest of the Fresno region's park system.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0909
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0909
+	 BLEU: 0.0519
+	 BERTScore Precision: 0.8195
+	 BERTScore Recall: 0.8186
+	 BERTScore F1: 0.8191
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 37:
+Question: The point at which different radiometric isotopes stop diffusing into and out of the crystal lattice is called what?
+Ground Truth: particular closure temperature
+Prediction: The point at which different radiometric isotopes stop diffusing into and out of the crystal lattice is called the closure temperature.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1667
+	 ROUGE-2 F1: 0.0909
+	 ROUGE-L F1: 0.1667
+	 BLEU: 0.1663
+	 BERTScore Precision: 0.8027
+	 BERTScore Recall: 0.9082
+	 BERTScore F1: 0.8522
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 38:
+Question: What could someone be investigated for?
+Ground Truth: allegations of professional misconduct
+Prediction: The answer could be "police misconduct" or "police corruption".
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1538
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1538
+	 BLEU: 0.2509
+	 BERTScore Precision: 0.8360
+	 BERTScore Recall: 0.8590
+	 BERTScore F1: 0.8473
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 39:
+Question: What are examples of economic actors?
+Ground Truth: worker, capitalist/business owner, landlord
+Prediction: The economic actors mentioned in the context include:
+
+1. Workers: These are individuals who produce goods and services for a living.
+2. Capitalists: These are businesses or organizations that own and operate machines, factories, and other physical assets.
+3. Landowners: These are people who own land and have control over its resources.
+4. Landlords: These are people who own land and have control over its resources.
+5. Entrepreneurs: These are individuals who start new businesses or industries.
+
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0976
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0976
+	 BLEU: 0.0643
+	 BERTScore Precision: 0.8060
+	 BERTScore Recall: 0.8502
+	 BERTScore F1: 0.8275
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 40:
+Question: What field involves the study of the immune system?
+Ground Truth: Immunology
+Prediction: The field of immunology involves the study of the immune system.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1667
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1667
+	 BLEU: 0.1298
+	 BERTScore Precision: 0.8194
+	 BERTScore Recall: 0.8277
+	 BERTScore F1: 0.8235
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 41:
+Question: What are the phagocytes that are located in tissues in contact with the external environment called?
+Ground Truth: Dendritic cells
+Prediction: The phagocytes that are located in tissues in contact with the external environment are called "dendritic cells" (DC).
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.2000
+	 ROUGE-2 F1: 0.1111
+	 ROUGE-L F1: 0.2000
+	 BLEU: 0.1147
+	 BERTScore Precision: 0.8140
+	 BERTScore Recall: 0.8827
+	 BERTScore F1: 0.8470
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 42:
+Question: What did the merchants of Newcastle plot to do to Timothy Dexter?
+Ground Truth: ruin him
+Prediction: Timothy Dexter, an eccentric entrepreneur, was persuaded to sail a shipment of coal to Newcastle by merchants who were planning to ruin him. However, his shipment arrived on the Tyne during a strike that had crippled local production, and unexpectedly he made a considerable profit. This led to the merchants' decision to increase the capacity of the Tyne Tunnel, which was completed in November 2011.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0597
+	 ROUGE-2 F1: 0.0308
+	 ROUGE-L F1: 0.0597
+	 BLEU: 0.0180
+	 BERTScore Precision: 0.7890
+	 BERTScore Recall: 0.8408
+	 BERTScore F1: 0.8141
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 43:
+Question: What job did Tesla's father have in Gospic?
+Ground Truth: pastor
+Prediction: Tesla's father, Milutin Tesla, had a job in Gospic. He was a draftsman for the Central Telegraph Office, which was the Budapest Telephone Exchange.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0151
+	 BERTScore Precision: 0.7700
+	 BERTScore Recall: 0.8139
+	 BERTScore F1: 0.7913
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 44:
+Question: Which hotel did the Panthers stay at for the Super Bowl?
+Ground Truth: San Jose Marriott.
+Prediction: The Panthers stayed at the San Jose Marriott for the Super Bowl.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.4000
+	 ROUGE-2 F1: 0.3077
+	 ROUGE-L F1: 0.4000
+	 BLEU: 0.2603
+	 BERTScore Precision: 0.8782
+	 BERTScore Recall: 0.9328
+	 BERTScore F1: 0.9047
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 45:
+Question: What are other alternative names for French and Indian War?
+Ground Truth: Fourth Intercolonial War and the Great War for the Empire
+Prediction: The other alternative names for the French and Indian War are:
+
+1. The Fourth Intercolonial War
+2. The Great War for the Empire
+3. The War of the Seven Years' War
+4. The Seven Years' War
+5. The War of the American Revolution
+6. The War of the First Barbary War
+7. The War of the Second Barbary War
+8. The War of the Third Barbary War
+9. The War of the Fourth Barbary
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.2381
+	 ROUGE-2 F1: 0.1707
+	 ROUGE-L F1: 0.2143
+	 BLEU: 0.1512
+	 BERTScore Precision: 0.8196
+	 BERTScore Recall: 0.9193
+	 BERTScore F1: 0.8666
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 46:
+Question: Outside of its use of automobiles, what else is southern California famous for using?
+Ground Truth: highways
+Prediction: Southern California is known for its use of automobiles, as it is home to some of the largest urban areas in the state, along with vast areas that have been left undeveloped.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0094
+	 BERTScore Precision: 0.7946
+	 BERTScore Recall: 0.8185
+	 BERTScore F1: 0.8064
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 47:
+Question: What was the last name of the designers of Newcastle's library?
+Ground Truth: Green
+Prediction: The last name of the designers of Newcastle's library is Green.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1538
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1538
+	 BLEU: 0.0669
+	 BERTScore Precision: 0.8038
+	 BERTScore Recall: 0.8261
+	 BERTScore F1: 0.8148
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 48:
+Question: How many people were on the test flight of the AS-206?
+Ground Truth: unmanned
+Prediction: 肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼肼
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0000
+	 BERTScore Precision: 0.5792
+	 BERTScore Recall: 0.8423
+	 BERTScore F1: 0.6864
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 49:
+Question: What is the state average growth rate?
+Ground Truth: 10.0%
+Prediction: The state average growth rate is 2%.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0337
+	 BERTScore Precision: 0.8367
+	 BERTScore Recall: 0.8779
+	 BERTScore F1: 0.8568
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 50:
+Question: When was the study on sequenced Y genomes published?
+Ground Truth: October 2011
+Prediction: The study on sequenced Y genomes was published in 2016.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0707
+	 BERTScore Precision: 0.8286
+	 BERTScore Recall: 0.8749
+	 BERTScore F1: 0.8511
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 51:
+Question: How many times prios has the Sun Life Stadium had Super Bowls?
+Ground Truth: 10.
+Prediction: The Sun Life Stadium has hosted the Super Bowl 50 twice.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0215
+	 BERTScore Precision: 0.8059
+	 BERTScore Recall: 0.9179
+	 BERTScore F1: 0.8583
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 52:
+Question: What does Kitab Rudjdjar mean in English?
+Ground Truth: The Book of Roger
+Prediction: Kitab Rudjdjar means "The Book of the King" in English.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.4286
+	 ROUGE-2 F1: 0.3333
+	 ROUGE-L F1: 0.4286
+	 BLEU: 0.2267
+	 BERTScore Precision: 0.8155
+	 BERTScore Recall: 0.8622
+	 BERTScore F1: 0.8382
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 53:
+Question: Name one country that banned boating, driving and flying on Sundays.
+Ground Truth: Germany
+Prediction: The answer is: Switzerland.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0709
+	 BERTScore Precision: 0.8249
+	 BERTScore Recall: 0.8157
+	 BERTScore F1: 0.8203
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 54:
+Question: For how long did the plague stick around?
+Ground Truth: until the 19th century
+Prediction: The answer is: Plague stuck around for several decades, from the mid-15th century to the early 17th century.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1739
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1739
+	 BLEU: 0.1361
+	 BERTScore Precision: 0.8338
+	 BERTScore Recall: 0.8730
+	 BERTScore F1: 0.8530
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 55:
+Question: What channels were removed from the network in March of 2007?
+Ground Truth: basic channels
+Prediction: The answer is: ABC Sports and ESPN signed an eight-year broadcast rights agreement with NASCAR, allowing ABC and ESPN to broadcast 17 Nextel Cup races each season (comprising just over half of the 36 races held annually) effective with the 2006 season.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0159
+	 BERTScore Precision: 0.7738
+	 BERTScore Recall: 0.8434
+	 BERTScore F1: 0.8071
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 56:
+Question: How many total touchdowns did Cam Newton score?
+Ground Truth: 45
+Prediction: Cam Newton scored a total of 45 touchdowns during the 2017 NFL season.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1429
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1429
+	 BLEU: 0.0204
+	 BERTScore Precision: 0.8060
+	 BERTScore Recall: 0.8453
+	 BERTScore F1: 0.8252
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 57:
+Question: How many original treaties establishing the EU protected fundamental rights?
+Ground Truth: None
+Prediction: The original treaties establishing the EU protected fundamental rights.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0187
+	 BERTScore Precision: 0.8135
+	 BERTScore Recall: 0.8224
+	 BERTScore F1: 0.8179
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 58:
+Question: What did BSkyB name their interactive service?
+Ground Truth: Sky Active
+Prediction: BSkyB named their interactive service "OpenTV".
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1199
+	 BERTScore Precision: 0.7970
+	 BERTScore Recall: 0.8281
+	 BERTScore F1: 0.8122
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 59:
+Question: How many inhabitants does the Los Angeles area contain?
+Ground Truth: 12 million
+Prediction: The Los Angeles area contains 12 million inhabitants.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.4000
+	 ROUGE-2 F1: 0.2500
+	 ROUGE-L F1: 0.4000
+	 BLEU: 0.1763
+	 BERTScore Precision: 0.8325
+	 BERTScore Recall: 0.8510
+	 BERTScore F1: 0.8417
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 60:
+Question: During what period did the Tower Theatre re-open?
+Ground Truth: late 1970s
+Prediction: During the late 1960s and 1970s, the Tower Theatre re-opened.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.3077
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.3077
+	 BLEU: 0.1529
+	 BERTScore Precision: 0.8607
+	 BERTScore Recall: 0.9059
+	 BERTScore F1: 0.8827
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 61:
+Question: What did Warsz own?
+Ground Truth: a village
+Prediction: The answer is: Warsz owned a wireless controlled boat, one of the first ever exhibited.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1176
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1176
+	 BLEU: 0.0257
+	 BERTScore Precision: 0.8132
+	 BERTScore Recall: 0.8455
+	 BERTScore F1: 0.8290
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 62:
+Question: Who formed the government in Kenya?
+Ground Truth: Kenya African National Union (KANU) of Jomo Kenyatta
+Prediction: The answer is: Annan and his UN-backed panel and African Union chairman Jakaya Kikwete as they brought together the former rivals to the signing ceremony, beamed live on national TV from the steps of Nairobi's Harambee House. On 29 February 2008, representatives of PNU and ODM began working on the finer details of the power-sharing agreement. Kenyan lawmakers unanimously approved a power-sharing deal 18 March 2008, aimed at
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0750
+	 BLEU: 0.0766
+	 BERTScore Precision: 0.8120
+	 BERTScore Recall: 0.8203
+	 BERTScore F1: 0.8161
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 63:
+Question: What tool has measured the amount of dust that travels from the Sahara to the Amazon?
+Ground Truth: NASA's CALIPSO satellite
+Prediction: The tool that has measured the amount of dust that travels from the Sahara to the Amazon is NASA's CALIPSO satellite.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.3077
+	 ROUGE-2 F1: 0.2500
+	 ROUGE-L F1: 0.3077
+	 BLEU: 0.1999
+	 BERTScore Precision: 0.8535
+	 BERTScore Recall: 0.9326
+	 BERTScore F1: 0.8913
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 64:
+Question: Who sacked Newton with 11 seconds left in the first half?
+Ground Truth: DeMarcus Ware
+Prediction: Newton was sacked with 11 seconds left in the first half.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0356
+	 BERTScore Precision: 0.8247
+	 BERTScore Recall: 0.7622
+	 BERTScore F1: 0.7922
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 65:
+Question: What was the hymn meant to examine students on?
+Ground Truth: specific catechism questions
+Prediction: The hymn "Wir glauben all" was meant to examine students on specific catechism questions related to baptism.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.3000
+	 ROUGE-2 F1: 0.2222
+	 ROUGE-L F1: 0.3000
+	 BLEU: 0.2540
+	 BERTScore Precision: 0.8409
+	 BERTScore Recall: 0.9229
+	 BERTScore F1: 0.8800
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 66:
+Question: In Nepalese private schools, what is the primary language of instruction?
+Ground Truth: English
+Prediction: The primary language of instruction in Nepalese private schools is English.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1667
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1667
+	 BLEU: 0.0834
+	 BERTScore Precision: 0.7923
+	 BERTScore Recall: 0.8240
+	 BERTScore F1: 0.8078
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 67:
+Question: What topic do private bills typically have?
+Ground Truth: large-scale development projects
+Prediction: The answer to the question "What topic do private bills typically have?" is: "Private bills usually relate to large-scale development projects such as infrastructure projects that require the use of land or property."
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.2105
+	 ROUGE-2 F1: 0.1667
+	 ROUGE-L F1: 0.2105
+	 BLEU: 0.1445
+	 BERTScore Precision: 0.8323
+	 BERTScore Recall: 0.9062
+	 BERTScore F1: 0.8677
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 68:
+Question: To where did Ethelred flee?
+Ground Truth: Normandy
+Prediction: Ethelred fled to the island of Manh.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0664
+	 BERTScore Precision: 0.8081
+	 BERTScore Recall: 0.8300
+	 BERTScore F1: 0.8189
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 69:
+Question: What future Revolutionary key figures participated in this attack?
+Ground Truth: Washington and Thomas Gage
+Prediction: You are a helpful assistant.conti
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0942
+	 BERTScore Precision: 0.8561
+	 BERTScore Recall: 0.8153
+	 BERTScore F1: 0.8352
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 70:
+Question: What style of lace is erroneously believed by some to have Huguenot influence?
+Ground Truth: 'Bucks Point'
+Prediction: The style of lace erroneously believed by some to have Huguenot influence is called "Bucks Point." This style of lace is named after the town of Bucks Point in Pennsylvania, which was the site where the rebellion took place. The rebellion was a violent uprising led by the Huguenots against the French Crown, and it resulted in the deaths of many French Protestants. The rebellion was a significant event in the history of the French Revolution and the development of the Huguenot
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0476
+	 ROUGE-2 F1: 0.0244
+	 ROUGE-L F1: 0.0476
+	 BLEU: 0.0213
+	 BERTScore Precision: 0.7867
+	 BERTScore Recall: 0.8422
+	 BERTScore F1: 0.8135
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 71:
+Question: What did the number of legions in Roman times depend on?
+Ground Truth: threat of war
+Prediction: The number of legions in Roman times depended on the size of the empire. The larger the empire, the more legions would be needed to maintain control over the territories conquered. For example, during the reign of Emperor Augustus, the Roman Empire was expanding rapidly, and the number of legions increased accordingly. However, the empire's size also influenced the number of legions required to maintain order and control over its territories. As the empire grew, so did the need for more legions to
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0230
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0230
+	 BLEU: 0.0120
+	 BERTScore Precision: 0.7783
+	 BERTScore Recall: 0.8170
+	 BERTScore F1: 0.7972
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 72:
+Question: Before dinner what were Tesla's working hours?
+Ground Truth: 9:00 a.m. until 6:00 p.m. or later
+Prediction: Tesla's working hours were from 8:10 p.m. until 6:00 p.m. or later, with dinner from exactly 8:10 p.m., at Delmonico's restaurant and later the Waldorf-Astoria Hotel.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.3478
+	 ROUGE-2 F1: 0.3182
+	 ROUGE-L F1: 0.3478
+	 BLEU: 0.1747
+	 BERTScore Precision: 0.8549
+	 BERTScore Recall: 0.9105
+	 BERTScore F1: 0.8819
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 73:
+Question: What house was the site of a weaving school in Canterbury?
+Ground Truth: The Weavers
+Prediction: The house where the weaving school was located in Canterbury is called the "Old Truman Brewery".
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1111
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1111
+	 BLEU: 0.0511
+	 BERTScore Precision: 0.8060
+	 BERTScore Recall: 0.8338
+	 BERTScore F1: 0.8196
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 74:
+Question: What is strongly linked to good student-teacher relationships?
+Ground Truth: student motivation and attitudes towards school
+Prediction: The answer is: Strongly linked to good student-teacher relationships is the quality of a teacher's personal success, which is defined as the student's internal goal of improving himself. This personal goal is aligned with the student's academic goals, which include the goals received from the superior. A teacher who is friendly and supportive, and who shows more interest in courses taught by them, can help students build stronger relationships with teachers. Additionally, effective teachers are known for inviting student participation and decision-making, allowing
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0426
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0426
+	 BLEU: 0.0495
+	 BERTScore Precision: 0.8163
+	 BERTScore Recall: 0.8499
+	 BERTScore F1: 0.8328
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 75:
+Question: What does the First Company Law Directive article 11 require?
+Ground Truth: incorporations would only be nullified for a fixed list of reasons
+Prediction: The First Company Law Directive article 11 requires that a company must comply with certain legal requirements before it can operate legally. Specifically, the directive requires companies to have a registered office, a board of directors, and a management structure that meets certain criteria. These requirements ensure that companies are able to carry out their business activities and maintain their legal status.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0548
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0548
+	 BLEU: 0.0395
+	 BERTScore Precision: 0.8210
+	 BERTScore Recall: 0.8389
+	 BERTScore F1: 0.8299
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 76:
+Question: What are two examples of cytotoxic or immunosuppressive drugs?
+Ground Truth: methotrexate or azathioprine
+Prediction: The two examples of cytotoxic or immunosuppressive drugs are methotrexate and azathioprine.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.4000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.2667
+	 BLEU: 0.2839
+	 BERTScore Precision: 0.8477
+	 BERTScore Recall: 0.9131
+	 BERTScore F1: 0.8792
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 77:
+Question: What caused the need for principal Treaties that ended up forming the EU?
+Ground Truth: common rules for coal and steel, and then atomic energy
+Prediction: The need for principal Treaties that formed the EU arose from the need to prevent a "corresponding denial" of Treaty obligations undertaken unconditionally and irrevocably by member states, which could "imperil the very foundations of the" EU. However, despite the views of the Court of Justice, the national courts of member states have not accepted the same analysis. Generally speaking, while all member states recognise that EU law takes primacy over national law where this agreed in the Treaties
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0449
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0449
+	 BLEU: 0.0483
+	 BERTScore Precision: 0.7967
+	 BERTScore Recall: 0.8480
+	 BERTScore F1: 0.8216
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 78:
+Question: Who originally led the Space Task Group?
+Ground Truth: Robert R. Gilruth
+Prediction: The answer is Stan Lebar. Stan Lebar was the director of the Space Task Group (STG) during the Apollo program. He was a member of Dr. Wernher von Braun's original V-2 rocket engineering team and played a significant role in the development of the lunar television camera at Westinghouse Electric Corporation. His leadership helped ensure the success of the Apollo program and contributed to the overall success of the space program.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0091
+	 BERTScore Precision: 0.7974
+	 BERTScore Recall: 0.7959
+	 BERTScore F1: 0.7966
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 79:
+Question: Which female anchor from Today joined Hugh Downs on 20/20?
+Ground Truth: Barbara Walters
+Prediction: The answer is Hugh Downs.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0734
+	 BERTScore Precision: 0.8665
+	 BERTScore Recall: 0.7990
+	 BERTScore F1: 0.8314
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 80:
+Question: What is the estimate for the amount of tree species in the amazon tropical rain forest?
+Ground Truth: 16,000 species
+Prediction: The estimated amount of tree species in the Amazon tropical rain forest is 16,000.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.3333
+	 ROUGE-2 F1: 0.1250
+	 ROUGE-L F1: 0.2222
+	 BLEU: 0.1426
+	 BERTScore Precision: 0.8524
+	 BERTScore Recall: 0.9042
+	 BERTScore F1: 0.8775
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 81:
+Question: What type of homes is Fresno known for?
+Ground Truth: early twentieth century homes
+Prediction: The type of homes that Fresno is known for are California Bungalow and American Craftsman style homes, Spanish Colonial Revival Style architecture, Mediterranean Revival Style architecture, Mission Revival Style architecture, and many Storybook houses designed by Fresno architects, Hilliard, Taylor & Wheeler. These types of homes are characterized by their unique architectural styles and designs, which reflect the diverse cultural and historical influences that have shaped Fresno over the years.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0274
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0274
+	 BLEU: 0.0231
+	 BERTScore Precision: 0.8007
+	 BERTScore Recall: 0.8368
+	 BERTScore F1: 0.8184
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 82:
+Question: What team had the best start ever in the NFL?
+Ground Truth: Carolina Panthers
+Prediction: The answer to the question "What team had the best start ever in the NFL?" can be found in the provided context. According to the text, the Panthers clinched home-field advantage throughout the NFC playoffs for the first time in franchise history. This indicates that the Panthers had the best start ever in the NFL.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0345
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0345
+	 BLEU: 0.0345
+	 BERTScore Precision: 0.7886
+	 BERTScore Recall: 0.8738
+	 BERTScore F1: 0.8290
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 83:
+Question: Which organic compounds contain the greatest amount of oxygen by mass?
+Ground Truth: carbohydrates
+Prediction: Answer: Alcohol (R-OH), ethers (R-O-R), ketones (R-CO-R), aldehydes (R-CO-H), carboxylic acids (R-COOH), esters (R-COO-R), acid anhydrides (R-CO-O-CO-R), and amides (R-C(O)-NR
+2) contain the greatest amount of oxygen by mass.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0396
+	 BERTScore Precision: 0.7021
+	 BERTScore Recall: 0.8848
+	 BERTScore F1: 0.7829
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 84:
+Question: What did Stiglitz present in 2009 regarding global inequality?
+Ground Truth: evidence
+Prediction: The answer is: Joseph Stiglitz presented in 2009 that rather than explaining concentrations of wealth and income, market forces should serve as a brake on such concentration, which may better be explained by the non-market force known as "rent-seeking".
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0112
+	 BERTScore Precision: 0.7702
+	 BERTScore Recall: 0.8320
+	 BERTScore F1: 0.7999
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 85:
+Question: Of what hollywood film company was UPT a subsidiary of when it merged with ABC?
+Ground Truth: Paramount Pictures
+Prediction: The answer is: Hollywood's film production studios.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0515
+	 BERTScore Precision: 0.8256
+	 BERTScore Recall: 0.7678
+	 BERTScore F1: 0.7957
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 86:
+Question: When did the NFL announce that it would not use Roman numbers to designate the Super Bowl number?
+Ground Truth: June 4, 2014
+Prediction: The answer is: halftime of the 50th Super Bowl
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0411
+	 BERTScore Precision: 0.8309
+	 BERTScore Recall: 0.8198
+	 BERTScore F1: 0.8253
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 87:
+Question: How many Huguenots were killed in Toulouse?
+Ground Truth: Nearly 3,000
+Prediction: The answer is 3,000.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.5000
+	 ROUGE-2 F1: 0.3333
+	 ROUGE-L F1: 0.5000
+	 BLEU: 0.2981
+	 BERTScore Precision: 0.8882
+	 BERTScore Recall: 0.9126
+	 BERTScore F1: 0.9003
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 88:
+Question: What is 'grey literature'?
+Ground Truth: non-peer-reviewed sources
+Prediction: Grey literature refers to information or documents that are not publicly available due to restrictions on access or publication. These can include unpublished research, unpublished reports, unpublished data, unpublished opinions, unpublished articles, unpublished books, unpublished speeches, unpublished letters, unpublished interviews, unpublished meetings, unpublished notes, unpublished photographs, unpublished maps, unpublished charts, unpublished diagrams, unpublished software, unpublished patents, unpublished patents, unpublished patents, unpublished patents, unpublished patents, unpublished patents, unpublished patents, unpublished patents, unpublished patents, unpublished patents
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0155
+	 BERTScore Precision: 0.7477
+	 BERTScore Recall: 0.8659
+	 BERTScore F1: 0.8025
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 89:
+Question: What's the name of Newcastle's speedway team?
+Ground Truth: Newcastle Diamonds
+Prediction: The name of Newcastle's speedway team is Newcastle Diamonds.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.3333
+	 ROUGE-2 F1: 0.2000
+	 ROUGE-L F1: 0.3333
+	 BLEU: 0.2908
+	 BERTScore Precision: 0.8183
+	 BERTScore Recall: 0.8481
+	 BERTScore F1: 0.8329
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 90:
+Question: What was the main reason for the show's suspension in 1989?
+Ground Truth: Its late 1980s performance of three to five million viewers
+Prediction: The main reason for the show's suspension in 1989 was due to production issues and a decline in the public perception of the show. The show was suspended because of the decision not to commission a planned 27th series of the show for transmission in 1990. This decision was made after the decision not to commission a planned 27th series of the show for transmission in 1990, which was a significant setback for the show. The decision
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0455
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0455
+	 BLEU: 0.0570
+	 BERTScore Precision: 0.8037
+	 BERTScore Recall: 0.8202
+	 BERTScore F1: 0.8119
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 91:
+Question: What is the name of the port city that was created?
+Ground Truth: Mombasa
+Prediction: The name of the port city that was created is Mombasa.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1667
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1667
+	 BLEU: 0.1163
+	 BERTScore Precision: 0.8348
+	 BERTScore Recall: 0.9009
+	 BERTScore F1: 0.8666
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 92:
+Question: When did Martin Luther receive his Doctor of Theology?
+Ground Truth: 19 October 1512
+Prediction: Martin Luther received his Doctor of Theology on 19 October 1512.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.4286
+	 ROUGE-2 F1: 0.3333
+	 ROUGE-L F1: 0.4286
+	 BLEU: 0.2214
+	 BERTScore Precision: 0.8515
+	 BERTScore Recall: 0.9330
+	 BERTScore F1: 0.8904
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 93:
+Question: Which phylum is more complex than sponges?
+Ground Truth: Ctenophores
+Prediction: The answer is: trochophora
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1961
+	 BERTScore Precision: 0.8315
+	 BERTScore Recall: 0.8265
+	 BERTScore F1: 0.8290
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 94:
+Question: What other scientist influence Frank Burnet when he was formulating his theory of immunity?
+Ground Truth: Niels Jerne
+Prediction: Burnet's influence on Frank Burnet when he was formulating his theory of immunity can be seen in several ways. Firstly, Burnet's work on the endocrine system and his studies on the role of hormones in immune responses provided him with a solid foundation for his theory. He was able to use his knowledge of hormones to explain how certain diseases, such as diabetes, could be triggered by changes in hormone levels. Additionally, Burnet's work on the role of hormones in immune responses also helped
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0077
+	 BERTScore Precision: 0.7737
+	 BERTScore Recall: 0.7779
+	 BERTScore F1: 0.7758
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 95:
+Question: How many volumes are contained in the library?
+Ground Truth: 18 million volumes
+Prediction: The library contains over 18 million volumes.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.6000
+	 ROUGE-2 F1: 0.5000
+	 ROUGE-L F1: 0.6000
+	 BLEU: 0.3894
+	 BERTScore Precision: 0.8707
+	 BERTScore Recall: 0.8845
+	 BERTScore F1: 0.8776
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 96:
+Question: What does co-teaching get the students to focus on?
+Ground Truth: learning
+Prediction: The students focus on learning by providing a social networking support that allows them to reach their full cognitive potential.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0952
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0952
+	 BLEU: 0.0561
+	 BERTScore Precision: 0.8003
+	 BERTScore Recall: 0.8410
+	 BERTScore F1: 0.8201
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 97:
+Question: Of what mountain system are the Victorian Alps a part?
+Ground Truth: Great Dividing Range
+Prediction: The answer is: Victoria contains many topographically, geologically and climatically diverse areas, ranging from the wet, temperate climate of Gippsland in the southeast to the snow-covered Victorian alpine areas which rise to almost 2,000 m (6,600 ft), with Mount Bogong the highest peak at 1,986 m (6,516 ft).
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0357
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0357
+	 BLEU: 0.0235
+	 BERTScore Precision: 0.7312
+	 BERTScore Recall: 0.7952
+	 BERTScore F1: 0.7619
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 98:
+Question: What body part did Thomas Davis break during the NFC Championship Game?
+Ground Truth: arm
+Prediction: Thomas Davis broke his right arm during the NFC Championship Game.
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.1667
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1667
+	 BLEU: 0.0316
+	 BERTScore Precision: 0.8059
+	 BERTScore Recall: 0.8291
+	 BERTScore F1: 0.8173
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 99:
+Question: Whose First Law of Motion says that unless acted upon be forces, objects would continue to move at a constant velocity?
+Ground Truth: Newton
+Prediction: Newton's First Law of Motion states that objects continue to move in a state of constant velocity unless acted upon by an external net force or resultant force. This law is an extension of Galileo's insight that constant velocity was associated with a lack of net force (see a more detailed description of this below). Newton proposed that every object with mass has an innate inertia that functions as the fundamental equilibrium "natural state" in place of the Aristotelian idea of the "natural state of rest". That is
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0220
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0220
+	 BLEU: 0.0100
+	 BERTScore Precision: 0.7551
+	 BERTScore Recall: 0.8102
+	 BERTScore F1: 0.7817
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 100:
+Question: How was scarcity managed in many countries?
+Ground Truth: rationing
+Prediction: Scarcity was addressed by rationing (as in many countries). Motorists faced long lines at gas stations beginning in summer 1972 and increasing by summer 1973. For instance, with low inequality a country with a growth rate of 2% per head and 40% of its population living in poverty, can halve poverty in ten years, but a country with high inequality would take nearly 60 years to achieve the same reduction. In the words
+Evaluation Scores:
+Retrieval:
+	 Precision@3 (Retrieval): 1
+Generation:
+	 ROUGE-1 F1: 0.0270
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0270
+	 BLEU: 0.0196
+	 BERTScore Precision: 0.7614
+	 BERTScore Recall: 0.9181
+	 BERTScore F1: 0.8325
+	 Exact Match: 0
+--------------------------------------------------
+
+
+Average Results:
+Total Queries: 100
+Number of retrieved chunks after hybrid search and reciprocal rank fusion: top-15
+Number of retrieved chunks after reranking: top-3
+Retrieval:
+	Precision@3: 0.5900
+	Percentage of results from semantic search in the top-15 before reranking: 69.23%
+	Percentage of results from BM25 in the top-15 before reranking: 30.77%
+Generation: 
+	ROUGE-1 F1: 0.1175
+	ROUGE-2 F1: 0.0509
+	ROUGE-L F1: 0.1139
+	BERTScore Precision: 0.8097
+	BERTScore Recall: 0.8516
+	BERTScore F1: 0.8295
+	BLEU: 0.0894
+	Exact Matching:  0.0
+
+
+END
+
+--------------------------------------------------
+--------------------------------------------------

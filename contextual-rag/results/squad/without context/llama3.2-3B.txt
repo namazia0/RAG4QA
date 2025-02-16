@@ -1,0 +1,2023 @@
+Example 1:
+Question: In what year did Massachusetts first require children to be educated in schools?
+Ground Truth: 1852
+Prediction: 1647.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.2403
+	 BERTScore Precision: 0.9406
+	 BERTScore Recall: 0.9109
+	 BERTScore F1: 0.9255
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 2:
+Question: When were stromules discovered?
+Ground Truth: 1962
+Prediction: 1950s.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.2730
+	 BERTScore Precision: 0.8616
+	 BERTScore Recall: 0.8555
+	 BERTScore F1: 0.8585
+	 Exact Match: 0
+	 LLM as a judge: 0.4
+--------------------------------------------------
+
+Example 3:
+Question: Which artist who had a major influence on the Gothic Revival is represented in the V&A's British galleries?
+Ground Truth: Horace Walpole
+Prediction: Augustus Pugin.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0703
+	 BERTScore Precision: 0.8669
+	 BERTScore Recall: 0.7708
+	 BERTScore F1: 0.8160
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 4:
+Question: In 1890, who did the university decide to team up with?
+Ground Truth: several regional colleges and universities
+Prediction: The University of Chicago.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.2222
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.2222
+	 BLEU: 0.1889
+	 BERTScore Precision: 0.8740
+	 BERTScore Recall: 0.8438
+	 BERTScore F1: 0.8586
+	 Exact Match: 0
+	 LLM as a judge: 0.5
+--------------------------------------------------
+
+Example 5:
+Question: Who got a touchdown making the score 10-7?
+Ground Truth: Jonathan Stewart
+Prediction: Not specified.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0927
+	 BERTScore Precision: 0.8647
+	 BERTScore Recall: 0.8124
+	 BERTScore F1: 0.8378
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 6:
+Question: How many Examination Boards exist in India?
+Ground Truth: 30
+Prediction: 8.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0000
+	 BERTScore Precision: 0.9704
+	 BERTScore Recall: 0.9410
+	 BERTScore F1: 0.9555
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 7:
+Question: Who started rumors in 2008 that ABC would sell its ten owned-and-operated stations?
+Ground Truth: Caris & Co.
+Prediction: Roger Ebert.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1261
+	 BERTScore Precision: 0.8172
+	 BERTScore Recall: 0.7971
+	 BERTScore F1: 0.8070
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 8:
+Question: Which network broadcasted the 50th Super Bowl game? 
+Ground Truth: CBS
+Prediction: CBS.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 1.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 1.0000
+	 BLEU: 0.6580
+	 BERTScore Precision: 0.9685
+	 BERTScore Recall: 0.9371
+	 BERTScore F1: 0.9525
+	 Exact Match: 0
+	 LLM as a judge: 1.0
+--------------------------------------------------
+
+Example 9:
+Question: Why was this short termed organization created?
+Ground Truth: coordinate the response to the embargo
+Prediction: To address a crisis or emergency.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1667
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1667
+	 BLEU: 0.1306
+	 BERTScore Precision: 0.8607
+	 BERTScore Recall: 0.8790
+	 BERTScore F1: 0.8697
+	 Exact Match: 0
+	 LLM as a judge: 0.4
+--------------------------------------------------
+
+Example 10:
+Question: What does LGM stands for?
+Ground Truth: Last Glacial Maximum
+Prediction: Local Government Museum.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1581
+	 BERTScore Precision: 0.8832
+	 BERTScore Recall: 0.8184
+	 BERTScore F1: 0.8496
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 11:
+Question: What is the paper written by Richard Karp in 1972 that ushered in a new era of understanding between intractability and NP-complete problems?
+Ground Truth: "Reducibility Among Combinatorial Problems"
+Prediction: The Paper is called "Reducibility Among Combinatorial Problems".
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.6667
+	 ROUGE-2 F1: 0.6000
+	 ROUGE-L F1: 0.6667
+	 BLEU: 0.6679
+	 BERTScore Precision: 0.9157
+	 BERTScore Recall: 0.9601
+	 BERTScore F1: 0.9374
+	 Exact Match: 0
+	 LLM as a judge: 0.9
+--------------------------------------------------
+
+Example 12:
+Question: What Lake in a German island Mainau receives a fraction of the Rhine's flow?
+Ground Truth: Lake Überlingen
+Prediction: Bodensee.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1052
+	 BERTScore Precision: 0.8232
+	 BERTScore Recall: 0.8070
+	 BERTScore F1: 0.8150
+	 Exact Match: 0
+	 LLM as a judge: 0.2
+--------------------------------------------------
+
+Example 13:
+Question: What studio does ABC own at 1500 Broadway in NYC?
+Ground Truth: Times Square Studios
+Prediction: Walt Disney Studios.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.3333
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.3333
+	 BLEU: 0.4227
+	 BERTScore Precision: 0.8864
+	 BERTScore Recall: 0.8080
+	 BERTScore F1: 0.8454
+	 Exact Match: 0
+	 LLM as a judge: 0.4
+--------------------------------------------------
+
+Example 14:
+Question: How many fraternities are apart of the university?
+Ground Truth: fifteen
+Prediction: There is no information provided about a specific university, so I cannot give an accurate answer.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0237
+	 BERTScore Precision: 0.7983
+	 BERTScore Recall: 0.8173
+	 BERTScore F1: 0.8077
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 15:
+Question: At what address did Goldenson secure a new headquarters for ABC?
+Ground Truth: 1330 Avenue of the Americas in Manhattan
+Prediction: 2000 Flower Street, Los Angeles.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0746
+	 BERTScore Precision: 0.8842
+	 BERTScore Recall: 0.8478
+	 BERTScore F1: 0.8656
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 16:
+Question: Who had established the Russian empire to its former glory prior to 1921?
+Ground Truth: Bolshevik leaders
+Prediction: Czar Nicholas II.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1232
+	 BERTScore Precision: 0.8490
+	 BERTScore Recall: 0.8688
+	 BERTScore F1: 0.8588
+	 Exact Match: 0
+	 LLM as a judge: 0.2
+--------------------------------------------------
+
+Example 17:
+Question: What does the Riemann hypothesis state the source of irregularity in the distribution of points comes from?
+Ground Truth: random noise
+Prediction: Prime numbers.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1463
+	 BERTScore Precision: 0.9095
+	 BERTScore Recall: 0.8643
+	 BERTScore F1: 0.8863
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 18:
+Question: Which work of Luther's is effective in teaching children?
+Ground Truth: Small Catechism
+Prediction: "Child and Christian"
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1211
+	 BERTScore Precision: 0.8429
+	 BERTScore Recall: 0.8384
+	 BERTScore F1: 0.8406
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 19:
+Question: How was the civil disobedience shown in Antigone?
+Ground Truth: obey her conscience rather than human law
+Prediction: Refusal to obey unjust laws.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.3333
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.3333
+	 BLEU: 0.1847
+	 BERTScore Precision: 0.8737
+	 BERTScore Recall: 0.8454
+	 BERTScore F1: 0.8593
+	 Exact Match: 0
+	 LLM as a judge: 0.9
+--------------------------------------------------
+
+Example 20:
+Question: Where do juvenile platyctenids live?
+Ground Truth: among the plankton
+Prediction: Freshwater lakes and rivers.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0859
+	 BERTScore Precision: 0.8245
+	 BERTScore Recall: 0.8420
+	 BERTScore F1: 0.8332
+	 Exact Match: 0
+	 LLM as a judge: 0.5
+--------------------------------------------------
+
+Example 21:
+Question: How often are elections held for the Victorian Parliament?
+Ground Truth: every four years
+Prediction: Four years.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.8000
+	 ROUGE-2 F1: 0.6667
+	 ROUGE-L F1: 0.8000
+	 BLEU: 0.5099
+	 BERTScore Precision: 0.9671
+	 BERTScore Recall: 0.9297
+	 BERTScore F1: 0.9481
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 22:
+Question: What magnetic and electric force acts on a charge?
+Ground Truth: unified electromagnetic
+Prediction: Coulomb's Law.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0740
+	 BERTScore Precision: 0.8139
+	 BERTScore Recall: 0.8480
+	 BERTScore F1: 0.8306
+	 Exact Match: 0
+	 LLM as a judge: 0.7
+--------------------------------------------------
+
+Example 23:
+Question: What kinds of growth did Kublai encourage?
+Ground Truth: commercial, scientific, and cultural
+Prediction: Trade and commerce.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.2857
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.2857
+	 BLEU: 0.2506
+	 BERTScore Precision: 0.8904
+	 BERTScore Recall: 0.8648
+	 BERTScore F1: 0.8774
+	 Exact Match: 0
+	 LLM as a judge: 0.5
+--------------------------------------------------
+
+Example 24:
+Question: What was the name of the first episode of the new Doctor Who series?
+Ground Truth: Rose
+Prediction: "Rose"
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 1.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 1.0000
+	 BLEU: 0.6043
+	 BERTScore Precision: 0.8214
+	 BERTScore Recall: 0.8943
+	 BERTScore F1: 0.8563
+	 Exact Match: 0
+	 LLM as a judge: 1.0
+--------------------------------------------------
+
+Example 25:
+Question: Each of the extended metropolitan areas has a population that exceeds what number?
+Ground Truth: five million
+Prediction: 1 million.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.5000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.5000
+	 BLEU: 0.6400
+	 BERTScore Precision: 0.9831
+	 BERTScore Recall: 0.9747
+	 BERTScore F1: 0.9789
+	 Exact Match: 0
+	 LLM as a judge: 0.1
+--------------------------------------------------
+
+Example 26:
+Question: Why is giving a defiant speech sometimes more harmful for the individual?
+Ground Truth: lack of remorse
+Prediction: It can lead to further conflict, damage relationships, and escalate consequences.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0429
+	 BERTScore Precision: 0.8443
+	 BERTScore Recall: 0.8629
+	 BERTScore F1: 0.8535
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 27:
+Question: When were Joseph Schumpeter and Norman Angell at their most prolific writing period?
+Ground Truth: before World War I
+Prediction: 1920s-1930s.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0000
+	 BERTScore Precision: 0.8393
+	 BERTScore Recall: 0.8232
+	 BERTScore F1: 0.8312
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 28:
+Question: How do competing businesses attract workers?
+Ground Truth: offering a higher wage
+Prediction: Offering better pay, benefits, and work environment.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1818
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1818
+	 BLEU: 0.1969
+	 BERTScore Precision: 0.8631
+	 BERTScore Recall: 0.8890
+	 BERTScore F1: 0.8759
+	 Exact Match: 0
+	 LLM as a judge: 0.9
+--------------------------------------------------
+
+Example 29:
+Question: How many teams up to Super Bowl 50 have been to the championship game eight times?
+Ground Truth: four
+Prediction: None.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.2403
+	 BERTScore Precision: 0.9678
+	 BERTScore Recall: 0.9357
+	 BERTScore F1: 0.9515
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 30:
+Question: What plants create most electric power?
+Ground Truth: steam turbine
+Prediction: Hydroelectric and wind.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0900
+	 BERTScore Precision: 0.8565
+	 BERTScore Recall: 0.8537
+	 BERTScore F1: 0.8551
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 31:
+Question: The epidemic in Newcastle was the most what in any British city at the time?
+Ground Truth: devastating loss
+Prediction: Outbreak.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0737
+	 BERTScore Precision: 0.9605
+	 BERTScore Recall: 0.8522
+	 BERTScore F1: 0.9031
+	 Exact Match: 0
+	 LLM as a judge: 0.2
+--------------------------------------------------
+
+Example 32:
+Question: What additional srevice did BSkyB offer besides Video on Demand that they claimed offered "substantially more value"?
+Ground Truth: HD channels
+Prediction: High-speed internet.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1006
+	 BERTScore Precision: 0.8954
+	 BERTScore Recall: 0.8672
+	 BERTScore F1: 0.8811
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 33:
+Question: Who did Tesla think would run the world of the future?
+Ground Truth: women
+Prediction: Women.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 1.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 1.0000
+	 BLEU: 0.6043
+	 BERTScore Precision: 0.9708
+	 BERTScore Recall: 0.9416
+	 BERTScore F1: 0.9559
+	 Exact Match: 0
+	 LLM as a judge: 0.9
+--------------------------------------------------
+
+Example 34:
+Question: What have many HT members graduated to joining?
+Ground Truth: terrorist groups
+Prediction: Music industry.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1272
+	 BERTScore Precision: 0.9129
+	 BERTScore Recall: 0.8694
+	 BERTScore F1: 0.8906
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 35:
+Question: Approximately how many items are in the costume collection of the V&A?
+Ground Truth: over 14,000
+Prediction: Over 300,000.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.6667
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.6667
+	 BLEU: 0.4405
+	 BERTScore Precision: 0.9642
+	 BERTScore Recall: 0.9553
+	 BERTScore F1: 0.9597
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 36:
+Question: Which park is home to the Fresno Chafffee Zoo?
+Ground Truth: Roeding Park
+Prediction: Forestiere Gardens.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1097
+	 BERTScore Precision: 0.8688
+	 BERTScore Recall: 0.8341
+	 BERTScore F1: 0.8511
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 37:
+Question: The point at which different radiometric isotopes stop diffusing into and out of the crystal lattice is called what?
+Ground Truth: particular closure temperature
+Prediction: Equilibrium.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0311
+	 BERTScore Precision: 0.9162
+	 BERTScore Recall: 0.8333
+	 BERTScore F1: 0.8728
+	 Exact Match: 0
+	 LLM as a judge: 0.2
+--------------------------------------------------
+
+Example 38:
+Question: What could someone be investigated for?
+Ground Truth: allegations of professional misconduct
+Prediction: Crime, misconduct, or wrongdoing.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.2500
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.2500
+	 BLEU: 0.3478
+	 BERTScore Precision: 0.9017
+	 BERTScore Recall: 0.8799
+	 BERTScore F1: 0.8907
+	 Exact Match: 0
+	 LLM as a judge: 0.9
+--------------------------------------------------
+
+Example 39:
+Question: What are examples of economic actors?
+Ground Truth: worker, capitalist/business owner, landlord
+Prediction: Consumers, businesses, governments, and individuals.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.2000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.2000
+	 BLEU: 0.2366
+	 BERTScore Precision: 0.8819
+	 BERTScore Recall: 0.8470
+	 BERTScore F1: 0.8641
+	 Exact Match: 0
+	 LLM as a judge: 0.83
+--------------------------------------------------
+
+Example 40:
+Question: What field involves the study of the immune system?
+Ground Truth: Immunology
+Prediction: Immunology.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 1.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 1.0000
+	 BLEU: 0.9017
+	 BERTScore Precision: 0.9829
+	 BERTScore Recall: 0.9744
+	 BERTScore F1: 0.9787
+	 Exact Match: 0
+	 LLM as a judge: 1.0
+--------------------------------------------------
+
+Example 41:
+Question: What are the phagocytes that are located in tissues in contact with the external environment called?
+Ground Truth: Dendritic cells
+Prediction: Macrophages.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0982
+	 BERTScore Precision: 0.8988
+	 BERTScore Recall: 0.7939
+	 BERTScore F1: 0.8431
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 42:
+Question: What did the merchants of Newcastle plot to do to Timothy Dexter?
+Ground Truth: ruin him
+Prediction: Frame him for a crime.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.2857
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.2857
+	 BLEU: 0.1631
+	 BERTScore Precision: 0.8771
+	 BERTScore Recall: 0.9448
+	 BERTScore F1: 0.9097
+	 Exact Match: 0
+	 LLM as a judge: 0.3
+--------------------------------------------------
+
+Example 43:
+Question: What job did Tesla's father have in Gospic?
+Ground Truth: pastor
+Prediction: I couldn't find any information about Tesla's father having a job in Gospic.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0247
+	 BERTScore Precision: 0.7957
+	 BERTScore Recall: 0.8317
+	 BERTScore F1: 0.8133
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 44:
+Question: Which hotel did the Panthers stay at for the Super Bowl?
+Ground Truth: San Jose Marriott.
+Prediction: Hard Rock Hotel.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1321
+	 BERTScore Precision: 0.9042
+	 BERTScore Recall: 0.8851
+	 BERTScore F1: 0.8946
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 45:
+Question: What are other alternative names for French and Indian War?
+Ground Truth: Fourth Intercolonial War and the Great War for the Empire
+Prediction: Seven Years' War, Queen's War.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.2500
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.2500
+	 BLEU: 0.0973
+	 BERTScore Precision: 0.8676
+	 BERTScore Recall: 0.8783
+	 BERTScore F1: 0.8729
+	 Exact Match: 0
+	 LLM as a judge: 0.5
+--------------------------------------------------
+
+Example 46:
+Question: Outside of its use of automobiles, what else is southern California famous for using?
+Ground Truth: highways
+Prediction: Aviation.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1449
+	 BERTScore Precision: 0.9688
+	 BERTScore Recall: 0.9377
+	 BERTScore F1: 0.9530
+	 Exact Match: 0
+	 LLM as a judge: 0.7
+--------------------------------------------------
+
+Example 47:
+Question: What was the last name of the designers of Newcastle's library?
+Ground Truth: Green
+Prediction: I couldn't find any information on the specific designers of Newcastle's library.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0176
+	 BERTScore Precision: 0.8039
+	 BERTScore Recall: 0.8395
+	 BERTScore F1: 0.8213
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 48:
+Question: How many people were on the test flight of the AS-206?
+Ground Truth: unmanned
+Prediction: Three.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1383
+	 BERTScore Precision: 0.9680
+	 BERTScore Recall: 0.9360
+	 BERTScore F1: 0.9517
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 49:
+Question: What is the state average growth rate?
+Ground Truth: 10.0%
+Prediction: Varies by state.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0657
+	 BERTScore Precision: 0.8255
+	 BERTScore Recall: 0.8503
+	 BERTScore F1: 0.8377
+	 Exact Match: 0
+	 LLM as a judge: 0.4
+--------------------------------------------------
+
+Example 50:
+Question: When was the study on sequenced Y genomes published?
+Ground Truth: October 2011
+Prediction: 2005.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0838
+	 BERTScore Precision: 0.9551
+	 BERTScore Recall: 0.8737
+	 BERTScore F1: 0.9126
+	 Exact Match: 0
+	 LLM as a judge: 0.1
+--------------------------------------------------
+
+Example 51:
+Question: How many times prios has the Sun Life Stadium had Super Bowls?
+Ground Truth: 10.
+Prediction: 0
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0805
+	 BERTScore Precision: 0.9174
+	 BERTScore Recall: 0.9586
+	 BERTScore F1: 0.9376
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 52:
+Question: What does Kitab Rudjdjar mean in English?
+Ground Truth: The Book of Roger
+Prediction: "The Book of Kings".
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.7500
+	 ROUGE-2 F1: 0.6667
+	 ROUGE-L F1: 0.7500
+	 BLEU: 0.5951
+	 BERTScore Precision: 0.9070
+	 BERTScore Recall: 0.9071
+	 BERTScore F1: 0.9071
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 53:
+Question: Name one country that banned boating, driving and flying on Sundays.
+Ground Truth: Germany
+Prediction: Singapore.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1535
+	 BERTScore Precision: 0.9692
+	 BERTScore Recall: 0.9384
+	 BERTScore F1: 0.9535
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 54:
+Question: For how long did the plague stick around?
+Ground Truth: until the 19th century
+Prediction: Centuries.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.4000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.4000
+	 BLEU: 0.1480
+	 BERTScore Precision: 0.8643
+	 BERTScore Recall: 0.8006
+	 BERTScore F1: 0.8312
+	 Exact Match: 0
+	 LLM as a judge: 0.5
+--------------------------------------------------
+
+Example 55:
+Question: What channels were removed from the network in March of 2007?
+Ground Truth: basic channels
+Prediction: I couldn't find any information about specific channels being removed from a network in March 2007.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1053
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1053
+	 BLEU: 0.1104
+	 BERTScore Precision: 0.8295
+	 BERTScore Recall: 0.8983
+	 BERTScore F1: 0.8625
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 56:
+Question: How many total touchdowns did Cam Newton score?
+Ground Truth: 45
+Prediction: I don't have that information.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0000
+	 BERTScore Precision: 0.8172
+	 BERTScore Recall: 0.8468
+	 BERTScore F1: 0.8318
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 57:
+Question: How many original treaties establishing the EU protected fundamental rights?
+Ground Truth: None
+Prediction: Two (Treaty of Rome and Single European Act)
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0304
+	 BERTScore Precision: 0.7935
+	 BERTScore Recall: 0.9218
+	 BERTScore F1: 0.8528
+	 Exact Match: 0
+	 LLM as a judge: 0.5
+--------------------------------------------------
+
+Example 58:
+Question: What did BSkyB name their interactive service?
+Ground Truth: Sky Active
+Prediction: Sky+
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.6667
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.6667
+	 BLEU: 0.1468
+	 BERTScore Precision: 0.8412
+	 BERTScore Recall: 0.8597
+	 BERTScore F1: 0.8504
+	 Exact Match: 0
+	 LLM as a judge: 0.4
+--------------------------------------------------
+
+Example 59:
+Question: How many inhabitants does the Los Angeles area contain?
+Ground Truth: 12 million
+Prediction: Over 13.2 million.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.3333
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.3333
+	 BLEU: 0.4890
+	 BERTScore Precision: 0.9183
+	 BERTScore Recall: 0.9321
+	 BERTScore F1: 0.9252
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 60:
+Question: During what period did the Tower Theatre re-open?
+Ground Truth: late 1970s
+Prediction: I don't have information on a specific Tower Theatre. Could you provide more context or details?
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0232
+	 BERTScore Precision: 0.7939
+	 BERTScore Recall: 0.8133
+	 BERTScore F1: 0.8035
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 61:
+Question: What did Warsz own?
+Ground Truth: a village
+Prediction: A horse.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.5000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.5000
+	 BLEU: 0.1458
+	 BERTScore Precision: 0.9096
+	 BERTScore Recall: 0.8820
+	 BERTScore F1: 0.8956
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 62:
+Question: Who formed the government in Kenya?
+Ground Truth: Kenya African National Union (KANU) of Jomo Kenyatta
+Prediction: Jomo Kenyatta.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.4000
+	 ROUGE-2 F1: 0.2500
+	 ROUGE-L F1: 0.4000
+	 BLEU: 0.0612
+	 BERTScore Precision: 0.9351
+	 BERTScore Recall: 0.8237
+	 BERTScore F1: 0.8759
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 63:
+Question: What tool has measured the amount of dust that travels from the Sahara to the Amazon?
+Ground Truth: NASA's CALIPSO satellite
+Prediction: Satellites.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.4000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.4000
+	 BLEU: 0.2286
+	 BERTScore Precision: 0.8834
+	 BERTScore Recall: 0.8196
+	 BERTScore F1: 0.8503
+	 Exact Match: 0
+	 LLM as a judge: 0.4
+--------------------------------------------------
+
+Example 64:
+Question: Who sacked Newton with 11 seconds left in the first half?
+Ground Truth: DeMarcus Ware
+Prediction: The Patriots.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1224
+	 BERTScore Precision: 0.9180
+	 BERTScore Recall: 0.7826
+	 BERTScore F1: 0.8449
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 65:
+Question: What was the hymn meant to examine students on?
+Ground Truth: specific catechism questions
+Prediction: The Ten Commandments.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0659
+	 BERTScore Precision: 0.8742
+	 BERTScore Recall: 0.8585
+	 BERTScore F1: 0.8663
+	 Exact Match: 0
+	 LLM as a judge: 0.1
+--------------------------------------------------
+
+Example 66:
+Question: In Nepalese private schools, what is the primary language of instruction?
+Ground Truth: English
+Prediction: English.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 1.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 1.0000
+	 BLEU: 0.8599
+	 BERTScore Precision: 0.9511
+	 BERTScore Recall: 0.9024
+	 BERTScore F1: 0.9261
+	 Exact Match: 0
+	 LLM as a judge: 1.0
+--------------------------------------------------
+
+Example 67:
+Question: What topic do private bills typically have?
+Ground Truth: large-scale development projects
+Prediction: Private land or property.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1635
+	 BERTScore Precision: 0.8561
+	 BERTScore Recall: 0.8675
+	 BERTScore F1: 0.8618
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 68:
+Question: To where did Ethelred flee?
+Ground Truth: Normandy
+Prediction: Denmark.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.2336
+	 BERTScore Precision: 0.9699
+	 BERTScore Recall: 0.9398
+	 BERTScore F1: 0.9546
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 69:
+Question: What future Revolutionary key figures participated in this attack?
+Ground Truth: Washington and Thomas Gage
+Prediction: George Washington, Benedict Arnold.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.2500
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.2500
+	 BLEU: 0.3235
+	 BERTScore Precision: 0.8644
+	 BERTScore Recall: 0.8450
+	 BERTScore F1: 0.8546
+	 Exact Match: 0
+	 LLM as a judge: 0.6
+--------------------------------------------------
+
+Example 70:
+Question: What style of lace is erroneously believed by some to have Huguenot influence?
+Ground Truth: 'Bucks Point'
+Prediction: Needlepoint.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.2567
+	 BERTScore Precision: 0.8691
+	 BERTScore Recall: 0.8561
+	 BERTScore F1: 0.8626
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 71:
+Question: What did the number of legions in Roman times depend on?
+Ground Truth: threat of war
+Prediction: Legion size.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1079
+	 BERTScore Precision: 0.8890
+	 BERTScore Recall: 0.8419
+	 BERTScore F1: 0.8648
+	 Exact Match: 0
+	 LLM as a judge: 0.9
+--------------------------------------------------
+
+Example 72:
+Question: Before dinner what were Tesla's working hours?
+Ground Truth: 9:00 a.m. until 6:00 p.m. or later
+Prediction: Typically 12-16 hours.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0508
+	 BERTScore Precision: 0.8457
+	 BERTScore Recall: 0.8195
+	 BERTScore F1: 0.8324
+	 Exact Match: 0
+	 LLM as a judge: 0.4
+--------------------------------------------------
+
+Example 73:
+Question: What house was the site of a weaving school in Canterbury?
+Ground Truth: The Weavers
+Prediction: St. Martin's Street.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0814
+	 BERTScore Precision: 0.8398
+	 BERTScore Recall: 0.8056
+	 BERTScore F1: 0.8223
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 74:
+Question: What is strongly linked to good student-teacher relationships?
+Ground Truth: student motivation and attitudes towards school
+Prediction: Communication.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0363
+	 BERTScore Precision: 0.9407
+	 BERTScore Recall: 0.8483
+	 BERTScore F1: 0.8921
+	 Exact Match: 0
+	 LLM as a judge: 0.3
+--------------------------------------------------
+
+Example 75:
+Question: What does the First Company Law Directive article 11 require?
+Ground Truth: incorporations would only be nullified for a fixed list of reasons
+Prediction: Disclosure of directors' and controllers' identities.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1176
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1176
+	 BLEU: 0.1174
+	 BERTScore Precision: 0.8222
+	 BERTScore Recall: 0.8202
+	 BERTScore F1: 0.8212
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 76:
+Question: What are two examples of cytotoxic or immunosuppressive drugs?
+Ground Truth: methotrexate or azathioprine
+Prediction: 1. Cyclophosphamide
+2. Tacrolimus
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0803
+	 BERTScore Precision: 0.8359
+	 BERTScore Recall: 0.8043
+	 BERTScore F1: 0.8198
+	 Exact Match: 0
+	 LLM as a judge: 0.5
+--------------------------------------------------
+
+Example 77:
+Question: What caused the need for principal Treaties that ended up forming the EU?
+Ground Truth: common rules for coal and steel, and then atomic energy
+Prediction: Post-WWII European instability.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0450
+	 BERTScore Precision: 0.8583
+	 BERTScore Recall: 0.8494
+	 BERTScore F1: 0.8539
+	 Exact Match: 0
+	 LLM as a judge: 0.1
+--------------------------------------------------
+
+Example 78:
+Question: Who originally led the Space Task Group?
+Ground Truth: Robert R. Gilruth
+Prediction: Wernher von Braun.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1195
+	 BERTScore Precision: 0.7906
+	 BERTScore Recall: 0.8224
+	 BERTScore F1: 0.8062
+	 Exact Match: 0
+	 LLM as a judge: 0.1
+--------------------------------------------------
+
+Example 79:
+Question: Which female anchor from Today joined Hugh Downs on 20/20?
+Ground Truth: Barbara Walters
+Prediction: Barbara Walters.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 1.0000
+	 ROUGE-2 F1: 1.0000
+	 ROUGE-L F1: 1.0000
+	 BLEU: 0.9342
+	 BERTScore Precision: 0.9869
+	 BERTScore Recall: 0.9803
+	 BERTScore F1: 0.9836
+	 Exact Match: 0
+	 LLM as a judge: 1.0
+--------------------------------------------------
+
+Example 80:
+Question: What is the estimate for the amount of tree species in the amazon tropical rain forest?
+Ground Truth: 16,000 species
+Prediction: 30,000.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.4000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.4000
+	 BLEU: 0.1860
+	 BERTScore Precision: 0.9424
+	 BERTScore Recall: 0.8944
+	 BERTScore F1: 0.9178
+	 Exact Match: 0
+	 LLM as a judge: 0.1
+--------------------------------------------------
+
+Example 81:
+Question: What type of homes is Fresno known for?
+Ground Truth: early twentieth century homes
+Prediction: Farmhouses and ranch-style homes.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.2222
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.2222
+	 BLEU: 0.2284
+	 BERTScore Precision: 0.8789
+	 BERTScore Recall: 0.8552
+	 BERTScore F1: 0.8669
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 82:
+Question: What team had the best start ever in the NFL?
+Ground Truth: Carolina Panthers
+Prediction: New England Patriots (2007)
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1217
+	 BERTScore Precision: 0.8820
+	 BERTScore Recall: 0.9139
+	 BERTScore F1: 0.8977
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 83:
+Question: Which organic compounds contain the greatest amount of oxygen by mass?
+Ground Truth: carbohydrates
+Prediction: Carbohydrates.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 1.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 1.0000
+	 BLEU: 0.8484
+	 BERTScore Precision: 0.8238
+	 BERTScore Recall: 0.8880
+	 BERTScore F1: 0.8547
+	 Exact Match: 0
+	 LLM as a judge: 0.9
+--------------------------------------------------
+
+Example 84:
+Question: What did Stiglitz present in 2009 regarding global inequality?
+Ground Truth: evidence
+Prediction: The Globalization and Its Discontents II.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0463
+	 BERTScore Precision: 0.8014
+	 BERTScore Recall: 0.8682
+	 BERTScore F1: 0.8335
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 85:
+Question: Of what hollywood film company was UPT a subsidiary of when it merged with ABC?
+Ground Truth: Paramount Pictures
+Prediction: American Broadcasting Company (ABC).
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0641
+	 BERTScore Precision: 0.7792
+	 BERTScore Recall: 0.8095
+	 BERTScore F1: 0.7941
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 86:
+Question: When did the NFL announce that it would not use Roman numbers to designate the Super Bowl number?
+Ground Truth: June 4, 2014
+Prediction: 1999.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0593
+	 BERTScore Precision: 0.9239
+	 BERTScore Recall: 0.8186
+	 BERTScore F1: 0.8681
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 87:
+Question: How many Huguenots were killed in Toulouse?
+Ground Truth: Nearly 3,000
+Prediction: Approximately 1,500.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1515
+	 BERTScore Precision: 0.9363
+	 BERTScore Recall: 0.9204
+	 BERTScore F1: 0.9283
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 88:
+Question: What is 'grey literature'?
+Ground Truth: non-peer-reviewed sources
+Prediction: Non-peer-reviewed publications, often by organizations or companies, that provide valuable information on a topic.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.3000
+	 ROUGE-2 F1: 0.2222
+	 ROUGE-L F1: 0.3000
+	 BLEU: 0.1601
+	 BERTScore Precision: 0.8462
+	 BERTScore Recall: 0.9414
+	 BERTScore F1: 0.8913
+	 Exact Match: 0
+	 LLM as a judge: 0.9
+--------------------------------------------------
+
+Example 89:
+Question: What's the name of Newcastle's speedway team?
+Ground Truth: Newcastle Diamonds
+Prediction: Newcastle Eagles.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.5000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.5000
+	 BLEU: 0.5602
+	 BERTScore Precision: 0.9043
+	 BERTScore Recall: 0.8393
+	 BERTScore F1: 0.8706
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 90:
+Question: What was the main reason for the show's suspension in 1989?
+Ground Truth: Its late 1980s performance of three to five million viewers
+Prediction: Financial issues.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0158
+	 BERTScore Precision: 0.9146
+	 BERTScore Recall: 0.8193
+	 BERTScore F1: 0.8643
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 91:
+Question: What is the name of the port city that was created?
+Ground Truth: Mombasa
+Prediction: Dubai.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.2311
+	 BERTScore Precision: 0.9394
+	 BERTScore Recall: 0.7630
+	 BERTScore F1: 0.8420
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 92:
+Question: When did Martin Luther receive his Doctor of Theology?
+Ground Truth: 19 October 1512
+Prediction: 1502.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0509
+	 BERTScore Precision: 0.8988
+	 BERTScore Recall: 0.8133
+	 BERTScore F1: 0.8539
+	 Exact Match: 0
+	 LLM as a judge: 0.1
+--------------------------------------------------
+
+Example 93:
+Question: Which phylum is more complex than sponges?
+Ground Truth: Ctenophores
+Prediction: Cnidarians (jellyfish, corals, sea anemones).
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0515
+	 BERTScore Precision: 0.8009
+	 BERTScore Recall: 0.8073
+	 BERTScore F1: 0.8041
+	 Exact Match: 0
+	 LLM as a judge: 0.2
+--------------------------------------------------
+
+Example 94:
+Question: What other scientist influence Frank Burnet when he was formulating his theory of immunity?
+Ground Truth: Niels Jerne
+Prediction: Alexander Fleming, Selman Waksman, and Paul Ehrlich.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0445
+	 BERTScore Precision: 0.8115
+	 BERTScore Recall: 0.8184
+	 BERTScore F1: 0.8150
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 95:
+Question: How many volumes are contained in the library?
+Ground Truth: 18 million volumes
+Prediction: 5.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0000
+	 BERTScore Precision: 0.9511
+	 BERTScore Recall: 0.8483
+	 BERTScore F1: 0.8968
+	 Exact Match: 0
+	 LLM as a judge: 0.0
+--------------------------------------------------
+
+Example 96:
+Question: What does co-teaching get the students to focus on?
+Ground Truth: learning
+Prediction: Student learning.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.6667
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.6667
+	 BLEU: 0.4437
+	 BERTScore Precision: 0.8884
+	 BERTScore Recall: 0.8905
+	 BERTScore F1: 0.8894
+	 Exact Match: 0
+	 LLM as a judge: 0.8
+--------------------------------------------------
+
+Example 97:
+Question: Of what mountain system are the Victorian Alps a part?
+Ground Truth: Great Dividing Range
+Prediction: The Great Dividing Range.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.8571
+	 ROUGE-2 F1: 0.8000
+	 ROUGE-L F1: 0.8571
+	 BLEU: 0.7935
+	 BERTScore Precision: 0.9293
+	 BERTScore Recall: 0.9484
+	 BERTScore F1: 0.9387
+	 Exact Match: 0
+	 LLM as a judge: 1.0
+--------------------------------------------------
+
+Example 98:
+Question: What body part did Thomas Davis break during the NFC Championship Game?
+Ground Truth: arm
+Prediction: His ankle.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1086
+	 BERTScore Precision: 0.8785
+	 BERTScore Recall: 0.8766
+	 BERTScore F1: 0.8775
+	 Exact Match: 0
+	 LLM as a judge: 0.1
+--------------------------------------------------
+
+Example 99:
+Question: Whose First Law of Motion says that unless acted upon be forces, objects would continue to move at a constant velocity?
+Ground Truth: Newton
+Prediction: Newton.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 1.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 1.0000
+	 BLEU: 0.8366
+	 BERTScore Precision: 0.9689
+	 BERTScore Recall: 0.9380
+	 BERTScore F1: 0.9532
+	 Exact Match: 0
+	 LLM as a judge: 1.0
+--------------------------------------------------
+
+Example 100:
+Question: How was scarcity managed in many countries?
+Ground Truth: rationing
+Prediction: Rationing and controls.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.5000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.5000
+	 BLEU: 0.3335
+	 BERTScore Precision: 0.8416
+	 BERTScore Recall: 0.9558
+	 BERTScore F1: 0.8951
+	 Exact Match: 0
+	 LLM as a judge: 0.9
+--------------------------------------------------
+
+Llama3.2-3B-Instruct exl2 8bpw
+
+Average Results:
+Total Queries: 100
+Retrieval:
+	Precision@0: -
+Generation: 
+	ROUGE-1 F1: 0.2051
+	ROUGE-2 F1: 0.0421
+	ROUGE-L F1: 0.2051
+	BERTScore Precision: 0.8851
+	BERTScore Recall: 0.8684
+	BERTScore F1: 0.8759
+	BLEU: 0.2163
+	Exact Matching:  0.0
+	LLM as a judge: 0.4103
+
+
+END
+
+--------------------------------------------------
+--------------------------------------------------

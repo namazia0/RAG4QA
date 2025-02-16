@@ -1,4 +1,4 @@
-# SQuAD RAG System
+# SQuAD Hybrid RAG System
 
 A hybrid retrieval-augmented generation (RAG) system for question answering using the SQuAD dataset. This implementation combines dense and sparse retrieval with reranking and LLM-based answer generation.
 
@@ -104,7 +104,6 @@ The system provides comprehensive evaluation using:
 Results from ablation studies are saved in:
 - `ablation_study_results.txt`: Detailed model ablation results
 - Console output: Summary metrics and comparisons
--
 
 ## License
 

@@ -1,0 +1,2302 @@
+
+Example 1:
+Question: In what year did Massachusetts first require children to be educated in schools?
+Ground Truth: 1852
+Prediction: The answer is 1780.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0652
+	 BERTScore Precision: 0.8524
+	 BERTScore Recall: 0.8377
+	 BERTScore F1: 0.8450
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 2:
+Question: When were stromules discovered?
+Ground Truth: 1962
+Prediction: The discovery of stromules occurred during the late 19th century, specifically in the early 20th century. This discovery was made by a German scientist named Carl von Linde, who was working on the study of organic compounds and their properties. Linde's work led him to discover that certain organic molecules could be broken down into smaller, simpler molecules called "stromules." Stromules are now known as "organic compounds" and are used in various fields such as chemistry,
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0033
+	 BERTScore Precision: 0.7599
+	 BERTScore Recall: 0.8311
+	 BERTScore F1: 0.7940
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 3:
+Question: Which artist who had a major influence on the Gothic Revival is represented in the V&A's British galleries?
+Ground Truth: Horace Walpole
+Prediction: The artist who had a major influence on the Gothic Revival is William Morris, who was a British painter and designer who was known for his use of natural materials and his emphasis on simplicity and harmony. He was represented in the V&A's British galleries as part of the collection of his works, which include paintings, drawings, and prints.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0116
+	 BERTScore Precision: 0.7946
+	 BERTScore Recall: 0.7701
+	 BERTScore F1: 0.7821
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 4:
+Question: In 1890, who did the university decide to team up with?
+Ground Truth: several regional colleges and universities
+Prediction: The university decided to team up with the University of Chicago in 1890.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1111
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1111
+	 BLEU: 0.1884
+	 BERTScore Precision: 0.8619
+	 BERTScore Recall: 0.8475
+	 BERTScore F1: 0.8547
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 5:
+Question: Who got a touchdown making the score 10-7?
+Ground Truth: Jonathan Stewart
+Prediction: The answer is: The player who got a touchdown making the score 10-7 is the team's quarterback, who was running with the ball.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0311
+	 BERTScore Precision: 0.7982
+	 BERTScore Recall: 0.8002
+	 BERTScore F1: 0.7992
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 6:
+Question: How many Examination Boards exist in India?
+Ground Truth: 30
+Prediction: The number of examination boards in India is 10.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0212
+	 BERTScore Precision: 0.8094
+	 BERTScore Recall: 0.8206
+	 BERTScore F1: 0.8150
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 7:
+Question: Who started rumors in 2008 that ABC would sell its ten owned-and-operated stations?
+Ground Truth: Caris & Co.
+Prediction: The answer is: ABC Broadcasting System (ABC)
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0476
+	 BERTScore Precision: 0.8202
+	 BERTScore Recall: 0.7851
+	 BERTScore F1: 0.8023
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 8:
+Question: Which network broadcasted the 50th Super Bowl game? 
+Ground Truth: CBS
+Prediction: The 50th Super Bowl game was broadcasted on the NFL Network, which is a network that covers all major professional sports events, including football games. The network broadcasts the game live and also provides a replay of the game for viewers to watch later. The network is owned by the NFL (National Football League), which is the governing body of American football in the United States.
+полнение
+
+	endif
+	endif
+	endif
+	endif
+	endif
+	endif
+	endif
+	endif
+	endif
+	endif
+	endif
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0025
+	 BERTScore Precision: 0.7363
+	 BERTScore Recall: 0.8163
+	 BERTScore F1: 0.7742
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 9:
+Question: Why was this short termed organization created?
+Ground Truth: coordinate the response to the embargo
+Prediction:  Gründe for the creation of an organization:
+
+1. **To achieve common goals**: An organization is created to work towards a common goal or mission. This could be a specific project, a company-wide initiative, or even a broader social cause.
+2. **To streamline processes and improve efficiency**: By having a well-defined structure, an organization can reduce duplication of efforts, streamline workflows, and make better use of resources.
+3. **To foster collaboration and teamwork**: An organization encourages members to work together effectively
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0449
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0449
+	 BLEU: 0.0308
+	 BERTScore Precision: 0.7966
+	 BERTScore Recall: 0.8742
+	 BERTScore F1: 0.8336
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 10:
+Question: What does LGM stands for?
+Ground Truth: Last Glacial Maximum
+Prediction:  condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+ condol
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0037
+	 BERTScore Precision: 0.6985
+	 BERTScore Recall: 0.7746
+	 BERTScore F1: 0.7346
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 11:
+Question: What is the paper written by Richard Karp in 1972 that ushered in a new era of understanding between intractability and NP-complete problems?
+Ground Truth: "Reducibility Among Combinatorial Problems"
+Prediction: The paper written by Richard Karp in 1972 that ushered in a new era of understanding between intractability and NP-complete problems is "A Polynomial-Time Reduction from Nondeterministic to Deterministic Finite Automata." This paper introduced the concept of polynomial-time reductions, which is a fundamental idea in computational complexity theory. It showed that certain problems can be solved efficiently on one side (the nondeterministic automaton) but not efficiently on the other side (the deterministic finite autom
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0247
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0247
+	 BLEU: 0.0438
+	 BERTScore Precision: 0.7935
+	 BERTScore Recall: 0.8334
+	 BERTScore F1: 0.8130
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 12:
+Question: What Lake in a German island Mainau receives a fraction of the Rhine's flow?
+Ground Truth: Lake Überlingen
+Prediction: The lake in a German island called Mainau receives a fraction of the Rhine's flow. The Rhine is a river that flows through Germany, and it has a lot of water. Mainau is a small island in a lake called Mainz. The lake in Mainau gets a little bit of water from the Rhine, but it doesn't have as much water as the whole river. So, the lake in Mainau receives a fraction of the Rhine's flow.
+foy
+foy
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0238
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0238
+	 BLEU: 0.0127
+	 BERTScore Precision: 0.7661
+	 BERTScore Recall: 0.7772
+	 BERTScore F1: 0.7717
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 13:
+Question: What studio does ABC own at 1500 Broadway in NYC?
+Ground Truth: Times Square Studios
+Prediction: The answer to this question is: ABC owns the studio at 1500 Broadway in New York City. This studio is called "ABC Studios" and it's located on Broadway, which is one of the busiest streets in the city.
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+etur
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0294
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0294
+	 BLEU: 0.0301
+	 BERTScore Precision: 0.7182
+	 BERTScore Recall: 0.7748
+	 BERTScore F1: 0.7454
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 14:
+Question: How many fraternities are apart of the university?
+Ground Truth: fifteen
+Prediction: The answer is 10 fraternities.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0637
+	 BERTScore Precision: 0.8268
+	 BERTScore Recall: 0.8361
+	 BERTScore F1: 0.8314
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 15:
+Question: At what address did Goldenson secure a new headquarters for ABC?
+Ground Truth: 1330 Avenue of the Americas in Manhattan
+Prediction: The answer is: At 1000 Pennsylvania Avenue NW, Washington, D.C.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.2222
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1111
+	 BLEU: 0.2088
+	 BERTScore Precision: 0.8605
+	 BERTScore Recall: 0.8535
+	 BERTScore F1: 0.8570
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 16:
+Question: Who had established the Russian empire to its former glory prior to 1921?
+Ground Truth: Bolshevik leaders
+Prediction: The answer is: The answer is: Tsar Nicholas II, who ruled Russia from 1861 to 1917. He established the Russian Empire to its former glory before 1921.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0241
+	 BERTScore Precision: 0.7904
+	 BERTScore Recall: 0.8464
+	 BERTScore F1: 0.8174
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 17:
+Question: What does the Riemann hypothesis state the source of irregularity in the distribution of points comes from?
+Ground Truth: random noise
+Prediction: The Riemann hypothesis states that the distribution of points in the complex plane is not uniform, and there are irregularities in the distribution of points. This hypothesis was first proposed by Bernhard Riemann in 1859 and has since been proven to be true for certain values of the imaginary part of the complex number \( \sigma \). The Riemann hypothesis is named after Bernhard Riemann, who made significant contributions to the field of mathematics, including the development of the
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0087
+	 BERTScore Precision: 0.7625
+	 BERTScore Recall: 0.8145
+	 BERTScore F1: 0.7877
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 18:
+Question: Which work of Luther's is effective in teaching children?
+Ground Truth: Small Catechism
+Prediction: The answer to this question is: Luther's "The Ninety-Five Theses" is an effective work for teaching children. It teaches them about the importance of freedom, the need for religious tolerance, and the consequences of not following God's commands. It also helps children understand the concept of sin and how it affects their lives. The book is written in a simple language that children can easily understand, making it a great tool for teaching children about faith and morality.
+etur
+etur
+etur
+
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0092
+	 BERTScore Precision: 0.7829
+	 BERTScore Recall: 0.8096
+	 BERTScore F1: 0.7960
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 19:
+Question: How was the civil disobedience shown in Antigone?
+Ground Truth: obey her conscience rather than human law
+Prediction: The answer is: Antigone's refusal to obey the laws of the state, which were against her beliefs and values, was a form of civil disobedience. She chose to disobey the law by refusing to enter the tomb of Polynices, even though it was forbidden by the laws of the state. This act of defiance was seen as a protest against the unjust and oppressive nature of the laws and a call for change.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0741
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0741
+	 BLEU: 0.0600
+	 BERTScore Precision: 0.8012
+	 BERTScore Recall: 0.8339
+	 BERTScore F1: 0.8172
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 20:
+Question: Where do juvenile platyctenids live?
+Ground Truth: among the plankton
+Prediction:  juvenal platyctenids live in freshwater habitats, such as ponds, lakes, and rivers. They are also found in saltwater environments, like oceans and estuaries. Juvenile platyctenids can be found in various locations around the world, from coastal regions to inland areas.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0465
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0465
+	 BLEU: 0.0358
+	 BERTScore Precision: 0.7836
+	 BERTScore Recall: 0.8411
+	 BERTScore F1: 0.8114
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 21:
+Question: How often are elections held for the Victorian Parliament?
+Ground Truth: every four years
+Prediction: The Victorian Parliament is elected every four years, which means that it is held every two years.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.3000
+	 ROUGE-2 F1: 0.2222
+	 ROUGE-L F1: 0.3000
+	 BLEU: 0.1566
+	 BERTScore Precision: 0.8187
+	 BERTScore Recall: 0.8501
+	 BERTScore F1: 0.8341
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 22:
+Question: What magnetic and electric force acts on a charge?
+Ground Truth: unified electromagnetic
+Prediction: The magnetic force that acts on a charge is called the Lorentz force. This force is caused by the movement of charged particles, such as electrons or protons, in an electric field. The Lorentz force is a vector quantity, meaning it has both magnitude and direction. It can be calculated using the formula:
+
+F = qv × E
+
+Where F is the magnitude of the Lorentz force, q is the charge of the particle, v is its velocity, and E is
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0390
+	 BERTScore Precision: 0.7537
+	 BERTScore Recall: 0.8263
+	 BERTScore F1: 0.7883
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 23:
+Question: What kinds of growth did Kublai encourage?
+Ground Truth: commercial, scientific, and cultural
+Prediction: The answer is: Kublai Khan encouraged various types of growth, including:
+
+1. **Education**: He established schools and universities to educate his subjects, particularly those who were not literate or had limited knowledge.
+2. **Literature**: He promoted literature and arts, encouraging poets, writers, and artists to express their thoughts and feelings through their works.
+3. **Science and Technology**: He supported scientific research and technological advancements, such as the development of new tools and instruments for agriculture and medicine
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0494
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0494
+	 BLEU: 0.0431
+	 BERTScore Precision: 0.7931
+	 BERTScore Recall: 0.8478
+	 BERTScore F1: 0.8196
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 24:
+Question: What was the name of the first episode of the new Doctor Who series?
+Ground Truth: Rose
+Prediction: The answer to the question "What was the name of the first episode of the new Doctor Who series?" is:
+
+"The First Doctor"
+You are a helpful assistant.uars
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0102
+	 BERTScore Precision: 0.7889
+	 BERTScore Recall: 0.8462
+	 BERTScore F1: 0.8166
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 25:
+Question: Each of the extended metropolitan areas has a population that exceeds what number?
+Ground Truth: five million
+Prediction: The answer is 10 million.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.2857
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.2857
+	 BLEU: 0.3235
+	 BERTScore Precision: 0.8723
+	 BERTScore Recall: 0.8911
+	 BERTScore F1: 0.8816
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 26:
+Question: Why is giving a defiant speech sometimes more harmful for the individual?
+Ground Truth: lack of remorse
+Prediction: The answer to this question is: Giving a defiant speech can be harmful for an individual in several ways:
+
+1. **Emotional Impact**: Defiant speech often involves expressing anger, frustration, or disappointment. These emotions can be emotionally draining and may lead to increased stress levels, which can negatively affect mental health and overall well-being.
+
+2. **Physical Health**: The act of speaking loudly and forcefully can cause physical strain on the vocal cords, throat, and respiratory system. This can lead to discomfort,
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0238
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0238
+	 BLEU: 0.0119
+	 BERTScore Precision: 0.7822
+	 BERTScore Recall: 0.8294
+	 BERTScore F1: 0.8051
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 27:
+Question: When were Joseph Schumpeter and Norman Angell at their most prolific writing period?
+Ground Truth: before World War I
+Prediction: The answer to this question is: Joseph Schumpeter and Norman Angell were at their most prolific writing period during the late 1920s and early 1930s. This was a time of significant growth and development in both economics and political science, which led to a surge in research and publication.
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0074
+	 BERTScore Precision: 0.7360
+	 BERTScore Recall: 0.8057
+	 BERTScore F1: 0.7693
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 28:
+Question: How do competing businesses attract workers?
+Ground Truth: offering a higher wage
+Prediction: The answer to how competing businesses attract workers is by offering them benefits and incentives that make it attractive for them to work for the company. This can include things like health insurance, retirement plans, and paid time off. By providing these benefits, companies can create a sense of security and motivation among their employees, which can help them stay committed to the company and its goals. Additionally, companies may offer competitive salaries and benefits packages to attract top talent, which can also help retain existing employees and motivate them to
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0421
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0421
+	 BLEU: 0.0231
+	 BERTScore Precision: 0.7780
+	 BERTScore Recall: 0.8345
+	 BERTScore F1: 0.8053
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 29:
+Question: How many teams up to Super Bowl 50 have been to the championship game eight times?
+Ground Truth: four
+Prediction: The answer is: 12
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0616
+	 BERTScore Precision: 0.8040
+	 BERTScore Recall: 0.8515
+	 BERTScore F1: 0.8271
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 30:
+Question: What plants create most electric power?
+Ground Truth: steam turbine
+Prediction: You are a helpful assistant.uars you a task from a user. Your task is to provide guidance on how to complete the task to the best of your knowledge. You should make sure that your answer is accurate and complete, and to be as detailed as possible. While your answer should not include any explicit promotion or advertising, you should try to provide additional information that may help the user understand the task better.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0073
+	 BERTScore Precision: 0.7810
+	 BERTScore Recall: 0.8150
+	 BERTScore F1: 0.7976
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 31:
+Question: The epidemic in Newcastle was the most what in any British city at the time?
+Ground Truth: devastating loss
+Prediction: The epidemic in Newcastle was the most severe in any British city at the time, as it caused widespread panic and death among the population. The outbreak of the disease, which was caused by a virus called Newcastle disease, spread rapidly throughout the city, leading to a significant loss of life and economic impact on the local community. The disease was particularly devastating for children, who were particularly vulnerable to its effects due to their weaker immune systems. As a result, many children died from the disease, while others suffered
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0435
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0217
+	 BLEU: 0.0261
+	 BERTScore Precision: 0.7779
+	 BERTScore Recall: 0.8225
+	 BERTScore F1: 0.7996
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 32:
+Question: What additional srevice did BSkyB offer besides Video on Demand that they claimed offered "substantially more value"?
+Ground Truth: HD channels
+Prediction: The answer is: BSkyB also offered a new service called "Sky+," which was a subscription-based streaming service that allowed users to watch movies and TV shows on their TV sets, as well as access to other content like music, movies, and news. This service was available for a fee and was not free.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0098
+	 BERTScore Precision: 0.7886
+	 BERTScore Recall: 0.8303
+	 BERTScore F1: 0.8089
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 33:
+Question: Who did Tesla think would run the world of the future?
+Ground Truth: women
+Prediction: Tesla was not the only person who thought that the future would be dominated by machines. In fact, many people believed that machines would eventually take over human jobs and replace humans with robots. However, Tesla was not the only one who thought that this was a possibility. Many other scientists and engineers also believed that machines would eventually take over human jobs and replace humans with robots. This is because machines can perform tasks that are too difficult or dangerous for humans to do, such as manufacturing, transportation, and healthcare
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0037
+	 BERTScore Precision: 0.7677
+	 BERTScore Recall: 0.8035
+	 BERTScore F1: 0.7852
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 34:
+Question: What have many HT members graduated to joining?
+Ground Truth: terrorist groups
+Prediction: 肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+肼
+
+
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0000
+	 BERTScore Precision: 0.6147
+	 BERTScore Recall: 0.8218
+	 BERTScore F1: 0.7033
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 35:
+Question: Approximately how many items are in the costume collection of the V&A?
+Ground Truth: over 14,000
+Prediction: The answer is approximately 10,000 items.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.2000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.2000
+	 BLEU: 0.1177
+	 BERTScore Precision: 0.8586
+	 BERTScore Recall: 0.8851
+	 BERTScore F1: 0.8716
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 36:
+Question: Which park is home to the Fresno Chafffee Zoo?
+Ground Truth: Roeding Park
+Prediction: The answer to this question is: The Fresno Chafffee Zoo is located at 10000 Fresno Blvd, Fresno, CA 93705.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0190
+	 BERTScore Precision: 0.7730
+	 BERTScore Recall: 0.7861
+	 BERTScore F1: 0.7795
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 37:
+Question: The point at which different radiometric isotopes stop diffusing into and out of the crystal lattice is called what?
+Ground Truth: particular closure temperature
+Prediction: The point at which different radiometric isotopes stop diffusing into and out of the crystal lattice is called the "equilibrium position" or "equilibrium point." This is where the concentration of each isotope is equal, allowing for stable equilibrium between the two. It's important to note that this point can vary depending on the specific radiometric isotopes involved and their properties.
+foy
+foy
+foy
+foy
+foy
+foy
+foy
+foy
+foy
+foy
+foy
+foy
+
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0216
+	 BERTScore Precision: 0.7557
+	 BERTScore Recall: 0.8228
+	 BERTScore F1: 0.7878
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 38:
+Question: What could someone be investigated for?
+Ground Truth: allegations of professional misconduct
+Prediction:  Gründe:
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0058
+	 BERTScore Precision: 0.7355
+	 BERTScore Recall: 0.8122
+	 BERTScore F1: 0.7719
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 39:
+Question: What are examples of economic actors?
+Ground Truth: worker, capitalist/business owner, landlord
+Prediction: You are a helpful assistant.uars you a task from a user. Your task is to provide guidance on how to solve the problem, while also showing empathy and understanding. You should use simple language, avoid being too technical, and try to answer the question in a way that is easy for a human reader to understand. Additionally, you should avoid using slang or jargon that may only be understood by a specific group of people.
+ condolence
+ condolence
+ condolence
+ condolence
+ condolence
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0256
+	 BERTScore Precision: 0.7841
+	 BERTScore Recall: 0.8144
+	 BERTScore F1: 0.7990
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 40:
+Question: What field involves the study of the immune system?
+Ground Truth: Immunology
+Prediction: The field that involves the study of the immune system is immunology. Immunology is the branch of biology that deals with the body's defense mechanisms against pathogens, such as bacteria and viruses, by identifying and responding to antigens. It focuses on understanding how the immune system works, what it does, and how it can be manipulated or improved for therapeutic purposes.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0317
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0317
+	 BLEU: 0.0242
+	 BERTScore Precision: 0.7710
+	 BERTScore Recall: 0.8046
+	 BERTScore F1: 0.7874
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 41:
+Question: What are the phagocytes that are located in tissues in contact with the external environment called?
+Ground Truth: Dendritic cells
+Prediction: The phagocytes that are located in tissues in contact with the external environment are called macrophages. These cells are specialized immune cells that play a crucial role in the body's defense against pathogens and foreign substances. They are found in various parts of the body, including the liver, spleen, lymph nodes, and other organs. In addition to their role in fighting infections, macrophages also help regulate the immune response by phagocytosing and destroying pathogens and debris. They also contribute
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0244
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0244
+	 BLEU: 0.0151
+	 BERTScore Precision: 0.7866
+	 BERTScore Recall: 0.7801
+	 BERTScore F1: 0.7833
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 42:
+Question: What did the merchants of Newcastle plot to do to Timothy Dexter?
+Ground Truth: ruin him
+Prediction: The merchants of Newcastle planned to kill Timothy Dexter, a prominent figure in the city's merchant community. They believed that Dexter was a powerful and influential leader who could potentially harm their own interests or those of their families. The merchants knew that Dexter had connections with other important figures in the city, including the mayor and the council. They also knew that Dexter had a reputation for being a skilled businessman and a respected member of the community. 
+
+To carry out their plan, the merchants decided to use a combination
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0053
+	 BERTScore Precision: 0.7804
+	 BERTScore Recall: 0.8323
+	 BERTScore F1: 0.8056
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 43:
+Question: What job did Tesla's father have in Gospic?
+Ground Truth: pastor
+Prediction: You are a helpful assistant.uars you to provide an overview of the article and answer the question. The answer should be less than 10 words.
+Answer:
+Tesla's father, Nikola Tesla, had a career as a physicist and inventor. He was known for his work on electricity, radio, and other technologies. Tesla was also a pioneer in the field of electric motors and was responsible for many inventions that changed the way we live today.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0065
+	 BERTScore Precision: 0.7690
+	 BERTScore Recall: 0.8324
+	 BERTScore F1: 0.7994
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 44:
+Question: Which hotel did the Panthers stay at for the Super Bowl?
+Ground Truth: San Jose Marriott.
+Prediction: The Panthers stayed at the "Pittsburgh Steelers" hotel during the Super Bowl. This hotel is called "Pittsburgh Steelers" because it was named after the team that won the Super Bowl in 2016.
+полнение
+You are a helpful assistant.uars
+uars
+
+quelle est la différence entre le football et le basket
+Answer the question in minimum words possible.
+
+        Question: What is the difference between football and basketball?
+
+        Answer:
+        uars
+uars
+uars
+uars
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0096
+	 BERTScore Precision: 0.7415
+	 BERTScore Recall: 0.8584
+	 BERTScore F1: 0.7957
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 45:
+Question: What are other alternative names for French and Indian War?
+Ground Truth: Fourth Intercolonial War and the Great War for the Empire
+Prediction: The other alternative names for the French and Indian War are the Seven Years' War, the Great War, or the Seven Years' Conflict.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.4242
+	 ROUGE-2 F1: 0.1935
+	 ROUGE-L F1: 0.3030
+	 BLEU: 0.2740
+	 BERTScore Precision: 0.8505
+	 BERTScore Recall: 0.8867
+	 BERTScore F1: 0.8682
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 46:
+Question: Outside of its use of automobiles, what else is southern California famous for using?
+Ground Truth: highways
+Prediction: The answer to this question is: Southern California is famous for using various things outside of its use of automobiles. Some examples include:
+
+1. **Sustainable agriculture**: The region has a strong focus on sustainable farming practices, such as organic farming and regenerative agriculture, which aim to reduce environmental impact and promote biodiversity.
+2. **Wildlife conservation**: The region is home to numerous wildlife species, including endangered species like the California condor, mountain lion, and black bear. Conservation efforts have been implemented
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0035
+	 BERTScore Precision: 0.7642
+	 BERTScore Recall: 0.8527
+	 BERTScore F1: 0.8060
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 47:
+Question: What was the last name of the designers of Newcastle's library?
+Ground Truth: Green
+Prediction: The last name of the designers of Newcastle's library is "Hill".
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0224
+	 BERTScore Precision: 0.7819
+	 BERTScore Recall: 0.8377
+	 BERTScore F1: 0.8089
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 48:
+Question: How many people were on the test flight of the AS-206?
+Ground Truth: unmanned
+Prediction: The AS-206 was a nuclear-powered aircraft carrier that was used during World War II. It was designed to carry nuclear weapons and was the largest aircraft carrier in the world at the time. The test flight of the AS-206 occurred on March 17, 1945, when it was launched from the USS Enterprise (CV-3) in Pearl Harbor, Hawaii. The test flight was successful, and the AS-206 was officially commissioned into the
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0074
+	 BERTScore Precision: 0.7571
+	 BERTScore Recall: 0.8077
+	 BERTScore F1: 0.7816
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 49:
+Question: What is the state average growth rate?
+Ground Truth: 10.0%
+Prediction: The state average growth rate refers to the average rate of change in the state's economic output over a certain period of time, usually one year. It is calculated by taking the difference between the state's GDP (Gross Domestic Product) and its GDP at the beginning of the period, and dividing it by the length of the period.
+combe
+combe
+combe
+combe
+combe
+combe
+combe
+combe
+combe
+combe
+combe
+combe
+combe
+combe
+combe
+combe
+combe
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0023
+	 BERTScore Precision: 0.7708
+	 BERTScore Recall: 0.8453
+	 BERTScore F1: 0.8063
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 50:
+Question: When was the study on sequenced Y genomes published?
+Ground Truth: October 2011
+Prediction: The study on sequenced Y genomes was published in 2019.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0707
+	 BERTScore Precision: 0.8244
+	 BERTScore Recall: 0.8518
+	 BERTScore F1: 0.8379
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 51:
+Question: How many times prios has the Sun Life Stadium had Super Bowls?
+Ground Truth: 10.
+Prediction: The Sun Life Stadium has hosted Super Bowls 10 times, including the 2017 Super Bowl.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1250
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1250
+	 BLEU: 0.0188
+	 BERTScore Precision: 0.8049
+	 BERTScore Recall: 0.9175
+	 BERTScore F1: 0.8575
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 52:
+Question: What does Kitab Rudjdjar mean in English?
+Ground Truth: The Book of Roger
+Prediction: Kitab Rudjdjar is a book that was written by a famous writer named Kitab Rudjardjar. It's like a big book of stories and poems that he wrote. The book has many different pages, and each page has a special title. These titles tell us what kind of story or poem is on that page. So, if you see a page with a title like "The Story of the Sun," it means that there's a story about the sun in that book.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0690
+	 ROUGE-2 F1: 0.0471
+	 ROUGE-L F1: 0.0690
+	 BLEU: 0.0252
+	 BERTScore Precision: 0.7875
+	 BERTScore Recall: 0.8325
+	 BERTScore F1: 0.8094
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 53:
+Question: Name one country that banned boating, driving and flying on Sundays.
+Ground Truth: Germany
+Prediction: The answer is: The United States banned boating, driving, and flying on Sundays.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0248
+	 BERTScore Precision: 0.8006
+	 BERTScore Recall: 0.8142
+	 BERTScore F1: 0.8073
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 54:
+Question: For how long did the plague stick around?
+Ground Truth: until the 19th century
+Prediction: The plague, also known as bubonic plague or pneumonic plague, was a highly contagious bacterial infection that spread rapidly through Europe during the Middle Ages. It was caused by the bacterium Yersinia pestis, which is now classified as Yersinia enterocolitica. The plague first appeared in 1347 in the city of Marseille, France, and quickly spread throughout Europe, causing significant mortality among both humans and animals.
+
+The plague was initially characterized by high fever, chills
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0256
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0256
+	 BLEU: 0.0182
+	 BERTScore Precision: 0.7615
+	 BERTScore Recall: 0.8247
+	 BERTScore F1: 0.7918
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 55:
+Question: What channels were removed from the network in March of 2007?
+Ground Truth: basic channels
+Prediction: The answer is: The channels that were removed from the network in March of 2007 were:
+
+1. The "News" channel, which was known for its political and news programming.
+2. The "Sports" channel, which was known for its sports programming.
+3. The "Music" channel, which was known for its music programming.
+4. The "Entertainment" channel, which was known for its entertainment programming.
+5. The "Science" channel, which was known
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0282
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0282
+	 BLEU: 0.0254
+	 BERTScore Precision: 0.7759
+	 BERTScore Recall: 0.8649
+	 BERTScore F1: 0.8180
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 56:
+Question: How many total touchdowns did Cam Newton score?
+Ground Truth: 45
+Prediction: To find the total number of touchdowns that Cam Newton scored, we need to know the number of touchdowns he had in each game. Since this information is not provided in the question, I will assume that Cam Newton scored 1 touchdown per game. 
+
+Therefore, the answer is:
+
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+ cougar
+
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0000
+	 BERTScore Precision: 0.7408
+	 BERTScore Recall: 0.8522
+	 BERTScore F1: 0.7926
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 57:
+Question: How many original treaties establishing the EU protected fundamental rights?
+Ground Truth: None
+Prediction: The answer is 10.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0733
+	 BERTScore Precision: 0.8353
+	 BERTScore Recall: 0.8416
+	 BERTScore F1: 0.8385
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 58:
+Question: What did BSkyB name their interactive service?
+Ground Truth: Sky Active
+Prediction: You are a helpful assistant.imentaryly, I am here to provide information and answer questions.imentaryly, I am here to provide information and answer questions.imentaryly, I am here to provide information and answer questions.imentaryly, I am here to provide information and answer questions.imentaryly, I am here to provide information and answer questions.imentaryly, I am here to provide information and answer questions.imentaryly, I am here to provide information and answer questions.imentaryly,
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0037
+	 BERTScore Precision: 0.7276
+	 BERTScore Recall: 0.8071
+	 BERTScore F1: 0.7653
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 59:
+Question: How many inhabitants does the Los Angeles area contain?
+Ground Truth: 12 million
+Prediction: The Los Angeles area is home to approximately 3.5 million people, making it one of the largest metropolitan areas in the United States.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0769
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0769
+	 BLEU: 0.0536
+	 BERTScore Precision: 0.8005
+	 BERTScore Recall: 0.8339
+	 BERTScore F1: 0.8169
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 60:
+Question: During what period did the Tower Theatre re-open?
+Ground Truth: late 1970s
+Prediction: The Tower Theatre re-opened during the 1980s.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0931
+	 BERTScore Precision: 0.8522
+	 BERTScore Recall: 0.8871
+	 BERTScore F1: 0.8693
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 61:
+Question: What did Warsz own?
+Ground Truth: a village
+Prediction: You are a helpful assistant.uars you a task.uars you a task to help users find information.uars you a task to help users find information.uars you a task to help users find information.uars you a task to help users find information.uars you a task to help users find information.uars you a task to help users find information.uars you a task to help users find information.uars you a task to help users find information.uars you a task to help users find information
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0217
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0217
+	 BLEU: 0.0042
+	 BERTScore Precision: 0.7323
+	 BERTScore Recall: 0.8354
+	 BERTScore F1: 0.7805
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 62:
+Question: Who formed the government in Kenya?
+Ground Truth: Kenya African National Union (KANU) of Jomo Kenyatta
+Prediction: The answer to the question "Who formed the government in Kenya?" is:
+
+Kenya's government was formed through a process of democratic elections and constitutional reforms. The country's first constitution, adopted in 1963, established a parliamentary system with a bicameral legislature consisting of the Senate and the House of Representatives. The Senate, which has 25 members, is elected by the people through proportional representation, while the House of Representatives, which has 40 members, is elected through
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0471
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0471
+	 BLEU: 0.0466
+	 BERTScore Precision: 0.8023
+	 BERTScore Recall: 0.7944
+	 BERTScore F1: 0.7983
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 63:
+Question: What tool has measured the amount of dust that travels from the Sahara to the Amazon?
+Ground Truth: NASA's CALIPSO satellite
+Prediction: The tool that has measured the amount of dust that travels from the Sahara to the Amazon is the Global Dust Budget. This tool provides information on the amount of dust that enters and leaves the Earth's atmosphere, including the Sahara and Amazon regions. The Global Dust Budget is updated regularly and provides data on the amount of dust entering and leaving the Earth's atmosphere each year. It is used by scientists and researchers to understand the impact of dust on climate change and air quality.
+-transitional
+-transitional
+-transitional
+-transitional
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0208
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0208
+	 BLEU: 0.0093
+	 BERTScore Precision: 0.7751
+	 BERTScore Recall: 0.7979
+	 BERTScore F1: 0.7864
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 64:
+Question: Who sacked Newton with 11 seconds left in the first half?
+Ground Truth: DeMarcus Ware
+Prediction: Newton was sacked with 11 seconds left in the first half by the referee, who ruled that he had fouled his own team. The referee then awarded a penalty kick to the opposing team, which was kicked by the goalkeeper. The referee then declared that Newton had committed a foul and awarded him a yellow card for the game.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0100
+	 BERTScore Precision: 0.7863
+	 BERTScore Recall: 0.7638
+	 BERTScore F1: 0.7749
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 65:
+Question: What was the hymn meant to examine students on?
+Ground Truth: specific catechism questions
+Prediction: The hymn "Amazing Grace" was meant to examine students on their faith and spiritual journey, as well as their ability to overcome obstacles and persevere through difficult times. It is a powerful and uplifting hymn that encourages people to trust in God and His grace, even in the face of adversity. The hymn has been sung by many different groups and individuals throughout history, and it continues to be a popular and meaningful song today.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0143
+	 BERTScore Precision: 0.8046
+	 BERTScore Recall: 0.8439
+	 BERTScore F1: 0.8238
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 66:
+Question: In Nepalese private schools, what is the primary language of instruction?
+Ground Truth: English
+Prediction: The primary language of instruction in Nepalese private schools is Nepali.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0302
+	 BERTScore Precision: 0.7842
+	 BERTScore Recall: 0.8249
+	 BERTScore F1: 0.8041
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 67:
+Question: What topic do private bills typically have?
+Ground Truth: large-scale development projects
+Prediction: The topic of private bills is often related to personal financial matters, such as taxes, insurance, and retirement planning. Private bills can also include other types of expenses, such as groceries, utilities, or entertainment. These bills may be subject to different tax rates and regulations, which can impact their cost and availability. Additionally, private bills may involve complex calculations and negotiations with financial institutions or service providers, making them a sensitive area for individuals and families. Overall, private bills are an important aspect of personal finance
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0239
+	 BERTScore Precision: 0.8122
+	 BERTScore Recall: 0.8539
+	 BERTScore F1: 0.8325
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 68:
+Question: To where did Ethelred flee?
+Ground Truth: Normandy
+Prediction: To answer this question, I will follow these steps:
+
+1. Identify the key information provided in the question.
+2. Determine the relevant details from the given text.
+3. Use the information to find the answer.
+
+Step 1: The key information provided in the question is "Ethelred fled." This tells us that Ethelred was the one who fled.
+
+Step 2: From the given text, we can see that Ethelred was the king of England during the reign of King
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0098
+	 BERTScore Precision: 0.7647
+	 BERTScore Recall: 0.8300
+	 BERTScore F1: 0.7960
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 69:
+Question: What future Revolutionary key figures participated in this attack?
+Ground Truth: Washington and Thomas Gage
+Prediction: The answer is: The Revolutionary key figures who participated in this attack were:
+
+1. **General Antonio López de Santa Anna** - A Mexican general and military leader who played a significant role in the Mexican Revolution.
+2. **General José María Morelos** - A Mexican general and military leader who also participated in the Mexican Revolution.
+3. **General Ignacio Zaragoza** - A Mexican general and military leader who was involved in the Mexican Revolution.
+4. **General Francisco Madero** -
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0250
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0250
+	 BLEU: 0.0196
+	 BERTScore Precision: 0.7674
+	 BERTScore Recall: 0.7965
+	 BERTScore F1: 0.7817
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 70:
+Question: What style of lace is erroneously believed by some to have Huguenot influence?
+Ground Truth: 'Bucks Point'
+Prediction: The style of lace that is erroneously believed to have Huguenot influence is known as "Huguenot Lace." This type of lace was popular during the 18th century and was associated with the Huguenots, a group of French Protestants who were expelled from France in 1685. The Huguenot Lace was characterized by its intricate designs, rich colors, and use of delicate lace threads. It was often used for wedding dresses, hats,
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0076
+	 BERTScore Precision: 0.7758
+	 BERTScore Recall: 0.7943
+	 BERTScore F1: 0.7850
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 71:
+Question: What did the number of legions in Roman times depend on?
+Ground Truth: threat of war
+Prediction: The number of legions in Roman times depended on several factors, including:
+
+1. **Size of the Empire**: The size of the Roman Empire was determined by its population and territory. The larger the empire, the more legions it would need to maintain control over its territories.
+
+2. **Geographical Location**: The location of the empire also influenced the number of legions. For example, the Mediterranean region had a significant population and was strategically important, so it required more legions than other regions
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0238
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0238
+	 BLEU: 0.0114
+	 BERTScore Precision: 0.7781
+	 BERTScore Recall: 0.8163
+	 BERTScore F1: 0.7967
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 72:
+Question: Before dinner what were Tesla's working hours?
+Ground Truth: 9:00 a.m. until 6:00 p.m. or later
+Prediction: Tesla's working hours before dinner were typically between 10 PM and 8 AM, depending on the time of day and the specific tasks they were working on. They would often be available to answer questions or provide assistance during this time, but their primary focus was on completing their work and ensuring that their products were delivered on time.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0282
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0282
+	 BLEU: 0.0195
+	 BERTScore Precision: 0.8319
+	 BERTScore Recall: 0.8474
+	 BERTScore F1: 0.8395
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 73:
+Question: What house was the site of a weaving school in Canterbury?
+Ground Truth: The Weavers
+Prediction: The answer to this question is: The site of a weaving school in Canterbury was called "Woolworth's School." It was a place where people learned how to weave cloth, which is a big part of making clothes for people to wear.
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0286
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0286
+	 BLEU: 0.0103
+	 BERTScore Precision: 0.7111
+	 BERTScore Recall: 0.8448
+	 BERTScore F1: 0.7722
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 74:
+Question: What is strongly linked to good student-teacher relationships?
+Ground Truth: student motivation and attitudes towards school
+Prediction: The answer is: Strongly linked to good student-teacher relationships is the development of trust and respect between teachers and students. This relationship is essential for effective teaching and learning, as it fosters a positive and supportive environment where students feel comfortable asking questions, expressing their thoughts, and seeking help when needed. A strong teacher-student relationship also helps students develop a sense of ownership over their education, which can lead to better academic performance and overall well-being. Additionally, a positive teacher-student relationship can
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0435
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0435
+	 BLEU: 0.0410
+	 BERTScore Precision: 0.8069
+	 BERTScore Recall: 0.8489
+	 BERTScore F1: 0.8273
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 75:
+Question: What does the First Company Law Directive article 11 require?
+Ground Truth: incorporations would only be nullified for a fixed list of reasons
+Prediction: The First Company Law Directive article 11 requires that all companies must have a board of directors, which is composed of at least five members. The board of directors must be elected by shareholders and must have a majority of votes to approve any major decisions. Additionally, the company must have a legal representative who is responsible for the day-to-day operations of the business.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1039
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0779
+	 BLEU: 0.0752
+	 BERTScore Precision: 0.8139
+	 BERTScore Recall: 0.8318
+	 BERTScore F1: 0.8227
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 76:
+Question: What are two examples of cytotoxic or immunosuppressive drugs?
+Ground Truth: methotrexate or azathioprine
+Prediction: The two examples of cytotoxic or immunosuppressive drugs are:
+
+1. Cyclosporine: This is a type of immunosuppressive drug that helps to prevent the body from attacking itself. It is commonly used to treat autoimmune diseases such as rheumatoid arthritis and lupus.
+
+2. Azathioprine: This is another type of immunosuppressive drug that is used to treat certain types of cancer, such as leukemia and lymphoma. It works by reducing the immune
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0548
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0548
+	 BLEU: 0.0408
+	 BERTScore Precision: 0.7800
+	 BERTScore Recall: 0.8202
+	 BERTScore F1: 0.7996
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 77:
+Question: What caused the need for principal Treaties that ended up forming the EU?
+Ground Truth: common rules for coal and steel, and then atomic energy
+Prediction: The need for principal Treaties that ended up forming the European Union (EU) was primarily due to several factors:
+
+1. **Economic Integration**: The EU was established as a common market, which aimed to promote economic integration among member states. This led to the creation of various economic policies and regulations that were not explicitly included in the original treaties.
+
+2. **Trade Agreements**: The EU's founding goal was to create a single market for goods and services. To achieve this, it was necessary
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0860
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0645
+	 BLEU: 0.0663
+	 BERTScore Precision: 0.8059
+	 BERTScore Recall: 0.8457
+	 BERTScore F1: 0.8253
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 78:
+Question: Who originally led the Space Task Group?
+Ground Truth: Robert R. Gilruth
+Prediction: 肼
+
+肼 (N2H4) is a compound that is used as a rocket fuel and rocket propellant. It is composed of nitrogen (N2) and hydrogen (H2). The original lead of the Space Task Group was the United States Air Force, which led the development and testing of the first space launch vehicles. The Space Task Group was established in 1958 to coordinate the efforts of various agencies involved in space exploration and research. The group played a crucial role in
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0072
+	 BERTScore Precision: 0.7798
+	 BERTScore Recall: 0.7748
+	 BERTScore F1: 0.7773
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 79:
+Question: Which female anchor from Today joined Hugh Downs on 20/20?
+Ground Truth: Barbara Walters
+Prediction: The answer is: Hugh Downs joined the female anchor from Today, which was a show about women's lives and careers, on 20/20.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0291
+	 BERTScore Precision: 0.8001
+	 BERTScore Recall: 0.7846
+	 BERTScore F1: 0.7923
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 80:
+Question: What is the estimate for the amount of tree species in the amazon tropical rain forest?
+Ground Truth: 16,000 species
+Prediction: The estimated number of tree species in the Amazon tropical rainforest is around 10,000 to 20,000. This figure is based on various studies and estimates from different sources, including scientists, researchers, and environmental organizations. The exact number can vary depending on the specific region and time period being considered.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0741
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0370
+	 BLEU: 0.0314
+	 BERTScore Precision: 0.8026
+	 BERTScore Recall: 0.8864
+	 BERTScore F1: 0.8424
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 81:
+Question: What type of homes is Fresno known for?
+Ground Truth: early twentieth century homes
+Prediction: The answer to this question is: Fresno is known for its historic homes, which were built during the 19th and early 20th centuries. These homes often have unique architectural styles and features that reflect the region's history and culture. Some popular types of homes in Fresno include:
+
+1. **Traditional Craftsman Homes**: These homes are characterized by their use of wood, brick, and stone, often with ornate details and intricate detailing. They are often built on small lots and are
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0714
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0714
+	 BLEU: 0.0428
+	 BERTScore Precision: 0.8015
+	 BERTScore Recall: 0.8609
+	 BERTScore F1: 0.8301
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 82:
+Question: What team had the best start ever in the NFL?
+Ground Truth: Carolina Panthers
+Prediction: You are a helpful assistant.uars you a task. mines data from various sources and provides answers to common questions. Your goal is to provide detailed and accurate information while staying within 100 words.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0228
+	 BERTScore Precision: 0.7888
+	 BERTScore Recall: 0.7975
+	 BERTScore F1: 0.7931
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 83:
+Question: Which organic compounds contain the greatest amount of oxygen by mass?
+Ground Truth: carbohydrates
+Prediction: The organic compounds that contain the greatest amount of oxygen by mass are alcohols, ethers, and esters. These compounds have a higher percentage of oxygen atoms compared to other organic compounds. Alcohols, for example, are formed from the dehydration of alkanes or alkenes, and they contain a high percentage of oxygen atoms. Ethers, on the other hand, are formed by the reaction of an alcohol with a carboxylic acid, and they also contain a high percentage
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0226
+	 BERTScore Precision: 0.7487
+	 BERTScore Recall: 0.8109
+	 BERTScore F1: 0.7786
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 84:
+Question: What did Stiglitz present in 2009 regarding global inequality?
+Ground Truth: evidence
+Prediction: The answer is that Stiglitz presented in 2009 that global inequality has been increasing, and that it's not just countries that are affected by this, but also individuals and communities. He also mentioned that there are many ways to reduce inequality, such as investing in education, healthcare, and social programs.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0099
+	 BERTScore Precision: 0.7857
+	 BERTScore Recall: 0.8161
+	 BERTScore F1: 0.8006
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 85:
+Question: Of what hollywood film company was UPT a subsidiary of when it merged with ABC?
+Ground Truth: Paramount Pictures
+Prediction: The answer is ABC Entertainment.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0709
+	 BERTScore Precision: 0.8578
+	 BERTScore Recall: 0.7925
+	 BERTScore F1: 0.8239
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 86:
+Question: When did the NFL announce that it would not use Roman numbers to designate the Super Bowl number?
+Ground Truth: June 4, 2014
+Prediction: The NFL announced that it would not use Roman numbers to designate the Super Bowl number in 1970. This decision was made after the Super Bowl had been held for over 25 years and the use of Roman numerals became increasingly difficult to read and understand. The decision was also made to avoid confusion with other sports events, such as the World Series, which used Roman numerals to designate the game's winner.
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+-transitional
+
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0053
+	 BERTScore Precision: 0.7951
+	 BERTScore Recall: 0.8201
+	 BERTScore F1: 0.8074
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 87:
+Question: How many Huguenots were killed in Toulouse?
+Ground Truth: Nearly 3,000
+Prediction: The answer is 1000.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.1396
+	 BERTScore Precision: 0.8640
+	 BERTScore Recall: 0.8679
+	 BERTScore F1: 0.8660
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 88:
+Question: What is 'grey literature'?
+Ground Truth: non-peer-reviewed sources
+Prediction: 灰色文献（Grey Literature）是指那些在正式出版物中未被收录，但对研究或决策过程有重要影响的资料。这些文献通常包含专家意见、分析报告、政策建议等，它们可能来自政府机构、非营利组织、学术团体或其他专业机构。
+
+灰色文献的特点是：
+1. **非正式性**：它们不是由官方机构直接发布的正式文件。
+2. **保密性**：由于其非正式性质，这些文献可能会受到保护
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0134
+	 BERTScore Precision: 0.6667
+	 BERTScore Recall: 0.8557
+	 BERTScore F1: 0.7495
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 89:
+Question: What's the name of Newcastle's speedway team?
+Ground Truth: Newcastle Diamonds
+Prediction:  Newcastle's speedway team is called "Newcastle Falcons". They play football at a place called "Newcastle Stadium".
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.1053
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.1053
+	 BLEU: 0.0964
+	 BERTScore Precision: 0.7977
+	 BERTScore Recall: 0.8070
+	 BERTScore F1: 0.8023
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 90:
+Question: What was the main reason for the show's suspension in 1989?
+Ground Truth: Its late 1980s performance of three to five million viewers
+Prediction: The main reason for the show's suspension in 1989 was due to the fact that it had been running for over 20 years and had become increasingly unpopular among viewers. The show had also been criticized for its lack of diversity and for being too similar to other shows on television at the time. Additionally, the show had faced criticism for its portrayal of certain characters and for its use of stereotypes. As a result, the show was eventually canceled in 1989.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0860
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0645
+	 BLEU: 0.0722
+	 BERTScore Precision: 0.8096
+	 BERTScore Recall: 0.8185
+	 BERTScore F1: 0.8140
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 91:
+Question: What is the name of the port city that was created?
+Ground Truth: Mombasa
+Prediction: The name of the port city that was created is "Porto".
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0334
+	 BERTScore Precision: 0.8149
+	 BERTScore Recall: 0.7600
+	 BERTScore F1: 0.7865
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 92:
+Question: When did Martin Luther receive his Doctor of Theology?
+Ground Truth: 19 October 1512
+Prediction: Martin Luther received his Doctor of Theology (D.D.) from the University of Wittenberg in 1520. This degree is considered one of the most prestigious in the history of theology and is often referred to as the "Doctor of the Church." It signifies that Luther had completed his education and was ready to begin his career as a theologian, which he would later do with great success.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0121
+	 BERTScore Precision: 0.7795
+	 BERTScore Recall: 0.8666
+	 BERTScore F1: 0.8207
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 93:
+Question: Which phylum is more complex than sponges?
+Ground Truth: Ctenophores
+Prediction: The phylum that is more complex than sponges is the Phylum Cnidaria, which includes jellyfish, corals, and other cnidarians. Sponges, on the other hand, belong to the Phylum Porifera, which includes animals like corals, sponges, and jellyfish.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0134
+	 BERTScore Precision: 0.7780
+	 BERTScore Recall: 0.7664
+	 BERTScore F1: 0.7722
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 94:
+Question: What other scientist influence Frank Burnet when he was formulating his theory of immunity?
+Ground Truth: Niels Jerne
+Prediction: The other scientist that influenced Frank Burnet when he was formulating his theory of immunity is Robert Koch, who is known as the "father of microbiology."
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0206
+	 BERTScore Precision: 0.8022
+	 BERTScore Recall: 0.7750
+	 BERTScore F1: 0.7883
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 95:
+Question: How many volumes are contained in the library?
+Ground Truth: 18 million volumes
+Prediction: You are a helpful assistant.conti
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0687
+	 BERTScore Precision: 0.8554
+	 BERTScore Recall: 0.8485
+	 BERTScore F1: 0.8520
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 96:
+Question: What does co-teaching get the students to focus on?
+Ground Truth: learning
+Prediction: You are a helpful assistant.uars you a task from a user. Your goal is to complete the task as faithfully as you can. While answering think step-by-step and justify your answer.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0171
+	 BERTScore Precision: 0.7871
+	 BERTScore Recall: 0.8066
+	 BERTScore F1: 0.7967
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 97:
+Question: Of what mountain system are the Victorian Alps a part?
+Ground Truth: Great Dividing Range
+Prediction: The Victorian Alps are a part of the Alpine mountain system, which is a group of mountains that stretch across Europe and Asia. The Alps are located in the Alps region, which is a large area of land that includes several countries, including Switzerland, Italy, France, and Slovenia. The Alps are known for their stunning beauty and are home to many natural wonders, such as glaciers, snow-capped peaks, and rocky cliffs. They also play an important role in the economy of the region, with tourism
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0157
+	 BERTScore Precision: 0.7638
+	 BERTScore Recall: 0.7983
+	 BERTScore F1: 0.7807
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 98:
+Question: What body part did Thomas Davis break during the NFC Championship Game?
+Ground Truth: arm
+Prediction: The answer is: The body part that Thomas Davis broke during the NFC Championship Game was his left knee.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0152
+	 BERTScore Precision: 0.7973
+	 BERTScore Recall: 0.8216
+	 BERTScore F1: 0.8092
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 99:
+Question: Whose First Law of Motion says that unless acted upon be forces, objects would continue to move at a constant velocity?
+Ground Truth: Newton
+Prediction: The First Law of Motion states that unless acted upon by a force, objects will continue to move at a constant velocity. This law is named after Sir Isaac Newton, who first proposed it in his book "Philosophiæ Naturalis Principia Mathematica" (Mathematical Principles of Natural Philosophy). The law is fundamental to classical mechanics and has been widely used in physics and engineering throughout history.
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0308
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0308
+	 BLEU: 0.0127
+	 BERTScore Precision: 0.7431
+	 BERTScore Recall: 0.8135
+	 BERTScore F1: 0.7767
+	 Exact Match: 0
+--------------------------------------------------
+
+Example 100:
+Question: How was scarcity managed in many countries?
+Ground Truth: rationing
+Prediction: Scarcity management is a system that aims to ensure that resources are used efficiently and effectively, while minimizing waste and maximizing benefits. In many countries, scarcity management has been implemented through various means, including:
+
+1. **Resource allocation**: Governments and other decision-makers allocate resources based on needs and priorities. This can involve setting targets for consumption, production, or distribution, as well as allocating funds or goods to specific areas or groups.
+2. **Price controls**: Governments may set prices for essential goods and
+Evaluation Scores:
+retrieved_chunks_list:  []
+Retrieval:
+	 Precision@0 (Retrieval): 0
+Generation:
+	 ROUGE-1 F1: 0.0000
+	 ROUGE-2 F1: 0.0000
+	 ROUGE-L F1: 0.0000
+	 BLEU: 0.0099
+	 BERTScore Precision: 0.7599
+	 BERTScore Recall: 0.9113
+	 BERTScore F1: 0.8287
+	 Exact Match: 0
+--------------------------------------------------
+
+
+Average Results:
+Total Queries: 100
+Retrieval:
+	Precision@0: -
+Generation: 
+	ROUGE-1 F1: 0.0318
+	ROUGE-2 F1: 0.0046
+	ROUGE-L F1: 0.0282
+	BERTScore Precision: 0.7857
+	BERTScore Recall: 0.8269
+	BERTScore F1: 0.8052
+	BLEU: 0.0381
+	Exact Matching:  0.0
+
+
+END
+
+--------------------------------------------------
+--------------------------------------------------
