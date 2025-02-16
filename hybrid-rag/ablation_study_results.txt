@@ -1,0 +1,110 @@
+Model Ablation Study Results:
+
+
+base_minilm:
+rouge1_precision: 0.5691
+rouge1_recall: 0.8069
+rouge1_f1: 0.5977
+rouge2_precision: 0.3962
+rouge2_recall: 0.5633
+rouge2_f1: 0.4095
+rougeL_precision: 0.5691
+rougeL_recall: 0.8069
+rougeL_f1: 0.5977
+bert_precision: 0.9074
+bert_recall: 0.9305
+bert_f1: 0.9182
+bleu_score: 0.3062
+exact_match: 0.0200
+retrieval_precision: 0.8400
+llm_judge_score: 0.8350
+
+base_roberta:
+rouge1_precision: 0.5956
+rouge1_recall: 0.7598
+rouge1_f1: 0.6222
+rouge2_precision: 0.3727
+rouge2_recall: 0.5133
+rouge2_f1: 0.3908
+rougeL_precision: 0.5946
+rougeL_recall: 0.7569
+rougeL_f1: 0.6207
+bert_precision: 0.9104
+bert_recall: 0.9281
+bert_f1: 0.9186
+bleu_score: 0.3064
+exact_match: 0.0200
+retrieval_precision: 0.8000
+llm_judge_score: 0.7970
+
+mpnet_minilm:
+rouge1_precision: 0.6393
+rouge1_recall: 0.8005
+rouge1_f1: 0.6531
+rouge2_precision: 0.4206
+rouge2_recall: 0.5533
+rouge2_f1: 0.4267
+rougeL_precision: 0.6393
+rougeL_recall: 0.8005
+rougeL_f1: 0.6531
+bert_precision: 0.9227
+bert_recall: 0.9352
+bert_f1: 0.9284
+bleu_score: 0.3304
+exact_match: 0.0200
+retrieval_precision: 0.8600
+llm_judge_score: 0.8398
+
+mpnet_roberta:
+rouge1_precision: 0.6285
+rouge1_recall: 0.7955
+rouge1_f1: 0.6558
+rouge2_precision: 0.4040
+rouge2_recall: 0.5300
+rouge2_f1: 0.4200
+rougeL_precision: 0.6285
+rougeL_recall: 0.7955
+rougeL_f1: 0.6558
+bert_precision: 0.9126
+bert_recall: 0.9311
+bert_f1: 0.9211
+bleu_score: 0.3282
+exact_match: 0.0400
+retrieval_precision: 0.8800
+llm_judge_score: 0.8230
+
+multi_qa_minilm:
+rouge1_precision: 0.6287
+rouge1_recall: 0.8205
+rouge1_f1: 0.6460
+rouge2_precision: 0.4065
+rouge2_recall: 0.5733
+rouge2_f1: 0.4164
+rougeL_precision: 0.6287
+rougeL_recall: 0.8205
+rougeL_f1: 0.6460
+bert_precision: 0.9145
+bert_recall: 0.9330
+bert_f1: 0.9230
+bleu_score: 0.3233
+exact_match: 0.0200
+retrieval_precision: 0.8600
+llm_judge_score: 0.8738
+
+multi_qa_roberta:
+rouge1_precision: 0.5588
+rouge1_recall: 0.7455
+rouge1_f1: 0.5826
+rouge2_precision: 0.3975
+rouge2_recall: 0.5233
+rouge2_f1: 0.4078
+rougeL_precision: 0.5588
+rougeL_recall: 0.7455
+rougeL_f1: 0.5826
+bert_precision: 0.9073
+bert_recall: 0.9266
+bert_f1: 0.9162
+bleu_score: 0.3099
+exact_match: 0.0200
+retrieval_precision: 0.8200
+llm_judge_score: 0.8098
