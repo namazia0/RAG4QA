@@ -2,9 +2,9 @@
 ## Had to be done for disk quota reasons
 
 
-export HF_HOME=/home/iailab43/khanm2/ir_lab/.cache/huggingface
-export HUGGINGFACE_HUB_CACHE=/home/iailab43/khanm2/ir_lab/.cache/huggingface
-export TMPDIR=/home/iailab43/khanm2/ir_lab/.cache/tmp
+export HF_HOME=/home/iailab43/namazia0/ir_lab/.cache/huggingface
+export HUGGINGFACE_HUB_CACHE=/home/iailab43/namazia0/ir_lab/.cache/huggingface
+export TMPDIR=/home/iailab43/namazia0/ir_lab/.cache/tmp
 
 
 echo $HF_HOME

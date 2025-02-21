@@ -48,8 +48,4 @@ I tested different chunking stragies:
 - Recursive Chunking
 - Semantic Chunking
 
-Semantic chunking is taken from Greg Kamradt's notebook: ['5_Levels_Of_Text_Splitting'](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb) (last accessed: 17/01/2025).
-
-## License
-
-MIT License
+Semantic chunking is taken from Greg Kamradt's notebook: ['5_Levels_Of_Text_Splitting'](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb) (last acce
