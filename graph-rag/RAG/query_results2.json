@@ -1,0 +1,19 @@
+[
+    {
+        "query": "Where was the relay held in Australia?",
+        "scores": [
+            80,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "global_answer": "Not found in the specific query."
+    }
+]
