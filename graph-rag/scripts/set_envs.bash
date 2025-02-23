@@ -9,4 +9,4 @@ export TMPDIR=/home/iailab43/namazia0/ir_lab/.cache/tmp
 
 echo $HF_HOME
 echo $HUGGINGFACE_HUB_CACHE
-echo $TMPDIR
+echo $T
