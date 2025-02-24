@@ -1,7 +1,9 @@
 # SQuAD Hybrid RAG System
 
 A hybrid retrieval-augmented generation (RAG) system for question answering using the SQuAD dataset. This implementation combines dense and sparse retrieval with reranking and LLM-based answer generation.
+
 Overview of the Hybrid RAG pipeline divided into retrieval and response generation:
+
 ![Alt Text](images/hybrid-rag-pipeline.png)
 
 ## Features
