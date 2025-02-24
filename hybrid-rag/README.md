@@ -4,7 +4,9 @@ A hybrid retrieval-augmented generation (RAG) system for question answering usin
 
 Overview of the Hybrid RAG pipeline divided into retrieval and response generation:
 
-![Alt Text](images/hybrid-rag-pipeline.png)
+<p align="center">
+  <img src="images/hybrid-rag-pipeline.png">
+</p>
 
 ## Features
 

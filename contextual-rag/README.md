@@ -4,12 +4,16 @@ This work is based on https://www.anthropic.com/news/contextual-retrieval (last 
 
 Overview of the Contextual RAG pipeline divided into contextual retrieval and response generation. This work’s contributions are highlighted in red:
 
-![Alt Text](images/contextual-rag-pipeline.png)
+<p align="center">
+  <img src="images/contextual-rag-pipeline.png">
+</p>
 
 
 A refined response generation pipeline with advanced multi-query decomposition:
 
-![Alt Text](images/multi-query-decomposition.png)
+<p align="center">
+  <img src="images/multi-query-decomposition.png">
+</p>
 
 ## Setup
 ```bash
@@ -57,7 +61,9 @@ I tested different chunking stragies:
 - Recursive Chunking
 - Semantic Chunking
 
-![Alt Text](images/chunking-methods.png)
+<p align="center">
+  <img src="images/chunking-methods.png">
+</p>
 
 Semantic chunking is taken from Greg Kamradt's notebook: ['5_Levels_Of_Text_Splitting'](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb) (last accessed: 01/17/2025).
 
