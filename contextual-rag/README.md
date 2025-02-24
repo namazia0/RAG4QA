@@ -2,8 +2,11 @@
 
 This work is based on https://www.anthropic.com/news/contextual-retrieval (last accessed 01/17/2025).
 
-Here is an overview of the architecture:
+Overview of the Contextual RAG pipeline divided into contextual retrieval and response generation. This work’s contributions are highlighted in red:
 ![Alt Text](images/contextual-rag-pipeline.png)
+
+A refined response generation pipeline with advanced multi-query decomposition:
+![Alt Text](images/multi-query-decomposition.png)
 
 ## Setup
 ```bash
@@ -26,8 +29,8 @@ python src/with_context/squad_rag.py > output/results.txt
 ```
 
 ## Datasets
-- The Stanford Question Answering Dataset (SQuAD)
-- Australian Legal Question Answering Dataset (ALQA)
+- [The Stanford Question Answering Dataset (SQuAD)](https://huggingface.co/datasets/rajpurkar/squad)  
+- [Australian Legal Question Answering Dataset (ALQA)](https://huggingface.co/datasets/Ramitha/open-australian-legal-qa-simplified-sent-tokenized)  
 
 ## LLM-Models
 - Llama-3.2 3B
@@ -50,6 +53,8 @@ I tested different chunking stragies:
 - Character Text splitter
 - Recursive Chunking
 - Semantic Chunking
+
+![Alt Text](images/chunking-methods.png)
 
 Semantic chunking is taken from Greg Kamradt's notebook: ['5_Levels_Of_Text_Splitting'](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb) (last accessed: 01/17/2025).
 
