@@ -1,6 +1,9 @@
 # ContextualRAG
 
-This work is based on https://www.anthropic.com/news/contextual-retrieval (last accessed 17/01/2025).
+This work is based on https://www.anthropic.com/news/contextual-retrieval (last accessed 01/17/2025).
+
+Here is an overview of the architecture:
+![Alt Text](images/contextual-rag-pipeline.png)
 
 ## Setup
 ```bash
@@ -48,7 +51,7 @@ I tested different chunking stragies:
 - Recursive Chunking
 - Semantic Chunking
 
-Semantic chunking is taken from Greg Kamradt's notebook: ['5_Levels_Of_Text_Splitting'](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb) (last accessed: 17/01/2025).
+Semantic chunking is taken from Greg Kamradt's notebook: ['5_Levels_Of_Text_Splitting'](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb) (last accessed: 01/17/2025).
 
 ## License
 
