@@ -1,4 +1,4 @@
-# ContextualRAG
+# Contextual RAG
 
 This work is based on https://www.anthropic.com/news/contextual-retrieval (last accessed 01/17/2025).
 
