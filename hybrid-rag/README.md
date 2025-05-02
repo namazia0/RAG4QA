@@ -24,23 +24,6 @@ The system uses a multi-stage pipeline:
 3. **Generation**: Leverages TabbyAPI for answer generation
 4. **Evaluation**: Multiple metrics for comprehensive performance assessment
 
-## Requirements
-
-```
-torch
-transformers
-sentence-transformers
-scikit-learn
-rank_bm25
-nltk
-tqdm
-requests
-rouge_score
-bert_score
-evaluate
-datasets
-```
-
 ## Setup
 
 1. Install dependencies:
