@@ -13,7 +13,7 @@ Overview of the Hybrid RAG pipeline divided into retrieval and response generati
 - Hybrid retrieval combining dense (semantic) and sparse (BM25) search
 - Cross-encoder reranking of retrieved contexts
 - Integration with TabbyAPI for LLM-based answer generation
-- Comprehensive evaluation metrics (ROUGE, BERT Score, BLEU, etc.)
+- Comprehensive evaluation metrics (ROUGE, BERTScore, BLEU, Exact Match, Retrieval Precision, LLM Judge Score)
 - Ablation study capabilities for model components
 
 ## Architecture
@@ -77,16 +77,6 @@ Key parameters that can be configured:
 - `tabby_api_url`: URL for TabbyAPI
 - `device`: GPU device to use (default: cuda)
 - `num_samples`: Number of samples for database preparation
-
-## Evaluation Metrics
-
-The system provides comprehensive evaluation using:
-- ROUGE-1, ROUGE-2, ROUGE-L scores
-- BERTScore
-- BLEU score
-- Exact Match
-- Retrieval Precision
-- LLM Judge Score
 
 ## Performance
 
