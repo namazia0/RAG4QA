@@ -9,6 +9,6 @@ This repository explores and compares various Retrieval-Augmented Generation (RA
 ## Performance Evaluation
 
 <p align="center">
-  <img src="images/results.png">
+  <img src="images/results.png" width="50%">
 </p>
 (SQuAD: The Stanford Question Answering Dataset, ALQA: Australian Legal Question Answering Dataset)
