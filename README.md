@@ -1,4 +1,4 @@
-# RAG4QA
+# RAG for Question Answering
 
 This repository explores and compares various Retrieval-Augmented Generation (RAG) approaches for Question Answering (QA). Developed as part of a university lab project conducted from October 2024 to January 2025.
 
