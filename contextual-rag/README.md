@@ -9,7 +9,7 @@ Overview of the Contextual RAG pipeline divided into contextual retrieval and re
 </p>
 
 
-A refined response generation pipeline with advanced multi-query decomposition:
+A refined response generation pipeline with query decomposition:
 
 <p align="center">
   <img src="images/multi-query-decomposition.png">
